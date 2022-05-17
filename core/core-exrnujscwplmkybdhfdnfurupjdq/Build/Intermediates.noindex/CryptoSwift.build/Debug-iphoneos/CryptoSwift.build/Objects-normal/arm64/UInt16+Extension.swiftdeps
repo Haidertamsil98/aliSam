@@ -1,0 +1,149 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+provides-nominal:
+provides-member:
+- ["s6UInt16V", ""]
+- ["s6UInt16V", "init"]
+- ["s6UInt16V", "init"]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "<<"
+- !private ">"
+- "ArraySlice"
+- "AssignmentPrecedence"
+- "Collection"
+- !private "FloatLiteralType"
+- "Int"
+- !private "IntegerLiteralType"
+- "TernaryPrecedence"
+- "UInt16"
+- "UInt8"
+- !private "|"
+depends-member:
+- !private ["s18AdditiveArithmeticP", "UInt16"]
+- !private ["s18AdditiveArithmeticP", "advanced"]
+- !private ["s18AdditiveArithmeticP", "init"]
+- !private ["Sz", "UInt16"]
+- !private ["Sz", "advanced"]
+- !private ["Sz", "init"]
+- !private ["s7CVarArgP", "UInt16"]
+- !private ["s7CVarArgP", "advanced"]
+- !private ["s7CVarArgP", "init"]
+- !private ["Sl", "count"]
+- !private ["Sl", "isEmpty"]
+- !private ["Sl", "startIndex"]
+- !private ["Sl", "subscript"]
+- !private ["SL", "UInt16"]
+- !private ["SL", "advanced"]
+- !private ["SL", "init"]
+- !private ["s17CustomReflectableP", "UInt16"]
+- !private ["s17CustomReflectableP", "advanced"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s23CustomStringConvertibleP", "UInt16"]
+- !private ["s23CustomStringConvertibleP", "advanced"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["Se", "UInt16"]
+- !private ["Se", "advanced"]
+- !private ["Se", "init"]
+- !private ["SE", "UInt16"]
+- !private ["SE", "advanced"]
+- !private ["SE", "init"]
+- !private ["SQ", "UInt16"]
+- !private ["SQ", "advanced"]
+- !private ["SQ", "init"]
+- !private ["s27ExpressibleByIntegerLiteralP", "UInt16"]
+- !private ["s27ExpressibleByIntegerLiteralP", "advanced"]
+- !private ["s27ExpressibleByIntegerLiteralP", "init"]
+- !private ["s17FixedWidthIntegerP", "UInt16"]
+- !private ["s17FixedWidthIntegerP", "advanced"]
+- !private ["s17FixedWidthIntegerP", "init"]
+- !private ["SH", "UInt16"]
+- !private ["SH", "advanced"]
+- !private ["SH", "init"]
+- !private ["Si", "advanced"]
+- !private ["s25LosslessStringConvertibleP", "UInt16"]
+- !private ["s25LosslessStringConvertibleP", "advanced"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s10MirrorPathP", "advanced"]
+- !private ["Sj", "UInt16"]
+- !private ["Sj", "advanced"]
+- !private ["Sj", "init"]
+- !private ["s10SIMDScalarP", "UInt16"]
+- !private ["s10SIMDScalarP", "advanced"]
+- !private ["s10SIMDScalarP", "init"]
+- !private ["ST", "count"]
+- !private ["ST", "isEmpty"]
+- !private ["ST", "startIndex"]
+- !private ["ST", "subscript"]
+- !private ["SZ", "advanced"]
+- !private ["s13SignedNumericP", "advanced"]
+- !private ["Sx", "UInt16"]
+- !private ["Sx", "advanced"]
+- !private ["Sx", "init"]
+- ["s6UInt16V", "ArraySlice"]
+- ["s6UInt16V", "Collection"]
+- ["s6UInt16V", "Int"]
+- !private ["s6UInt16V", "UInt16"]
+- ["s6UInt16V", "UInt8"]
+- ["s6UInt16V", "init"]
+- !private ["SU", "UInt16"]
+- !private ["SU", "init"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "UInt16"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "advanced"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "init"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "UInt16"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "advanced"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "UInt16"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "advanced"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "UInt16"]
+- !private ["s21_ObjectiveCBridgeableP", "advanced"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s14_StringElementP", "UInt16"]
+- !private ["s14_StringElementP", "init"]
+depends-nominal:
+- !private "s18AdditiveArithmeticP"
+- !private "Sz"
+- !private "s7CVarArgP"
+- !private "Sl"
+- !private "SL"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "Se"
+- !private "SE"
+- !private "SQ"
+- !private "s27ExpressibleByIntegerLiteralP"
+- !private "s17FixedWidthIntegerP"
+- !private "SH"
+- !private "Si"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- !private "Sj"
+- !private "s10SIMDScalarP"
+- !private "ST"
+- !private "SZ"
+- !private "s13SignedNumericP"
+- !private "Sx"
+- "s6UInt16V"
+- !private "SU"
+- !private "s30_CustomPlaygroundQuickLookableP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s14_StringElementP"
+depends-dynamic-lookup:
+depends-external:
+- "/Volumes/Drive D/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/ObjectiveC.swiftmodule/arm64.swiftmodule"
+- "/Volumes/Drive D/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Dispatch.swiftmodule/arm64.swiftmodule"
+- "/Volumes/Drive D/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Darwin.swiftmodule/arm64.swiftmodule"
+- "/Volumes/Drive D/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Foundation.swiftmodule/arm64.swiftmodule"
+- "/Volumes/Drive D/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreFoundation.swiftmodule/arm64.swiftmodule"
+- "/Volumes/Drive D/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Combine.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Volumes/Drive D/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.4.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Volumes/Drive D/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Volumes/Drive D/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.4.sdk/usr/include/Darwin.apinotes"
+- "/Volumes/Drive D/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.4.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Volumes/Drive D/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.4.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Volumes/Drive D/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.4.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "1a0e3b4b9ac54fb1140e3a3bf0b87393"

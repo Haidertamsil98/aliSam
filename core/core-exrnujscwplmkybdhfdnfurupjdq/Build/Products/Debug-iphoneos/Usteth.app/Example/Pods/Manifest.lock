@@ -1,0 +1,16 @@
+PODS:
+  - SoundWave (0.1.4)
+
+DEPENDENCIES:
+  - SoundWave (from `../`)
+
+EXTERNAL SOURCES:
+  SoundWave:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  SoundWave: cb543f3b100385b96e3642ac8f2a8185cd0621ea
+
+PODFILE CHECKSUM: dfc7e67748298c50c5f67204a07ae01031d7c398
+
+COCOAPODS: 1.6.1

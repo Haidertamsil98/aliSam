@@ -1,0 +1,137 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "Services"
+provides-nominal:
+- "6Usteth8ServicesC"
+provides-member:
+- ["6Usteth8ServicesC", ""]
+provides-dynamic-lookup:
+- "ServicesInstance"
+- "checkForLogin"
+- "getToken"
+- "removedToken"
+- "savedToken"
+- "userDefault"
+depends-top-level:
+- !private "=="
+- "Bool"
+- !private "BooleanLiteralType"
+- "CastingPrecedence"
+- "Services"
+- "String"
+- !private "StringLiteralType"
+- "UserDefaults"
+- !private "tokenkey"
+depends-member:
+- !private ["s7CVarArgP", "object"]
+- !private ["s7CVarArgP", "removeObject"]
+- !private ["s7CVarArgP", "set"]
+- ["s7CVarArgP", "standard"]
+- !private ["s28CustomDebugStringConvertibleP", "object"]
+- !private ["s28CustomDebugStringConvertibleP", "removeObject"]
+- !private ["s28CustomDebugStringConvertibleP", "set"]
+- ["s28CustomDebugStringConvertibleP", "standard"]
+- !private ["s23CustomStringConvertibleP", "object"]
+- !private ["s23CustomStringConvertibleP", "removeObject"]
+- !private ["s23CustomStringConvertibleP", "set"]
+- ["s23CustomStringConvertibleP", "standard"]
+- !private ["SQ", "object"]
+- !private ["SQ", "removeObject"]
+- !private ["SQ", "set"]
+- ["SQ", "standard"]
+- !private ["SH", "object"]
+- !private ["SH", "removeObject"]
+- !private ["SH", "set"]
+- ["SH", "standard"]
+- !private ["So8NSObjectC", "object"]
+- !private ["So8NSObjectC", "removeObject"]
+- !private ["So8NSObjectC", "set"]
+- ["So8NSObjectC", "standard"]
+- !private ["So8NSObjectP", "object"]
+- !private ["So8NSObjectP", "removeObject"]
+- !private ["So8NSObjectP", "set"]
+- ["So8NSObjectP", "standard"]
+- ["6Usteth8ServicesC", "Bool"]
+- ["6Usteth8ServicesC", "Services"]
+- ["6Usteth8ServicesC", "ServicesInstance"]
+- ["6Usteth8ServicesC", "String"]
+- ["6Usteth8ServicesC", "UserDefaults"]
+- ["6Usteth8ServicesC", "checkForLogin"]
+- ["6Usteth8ServicesC", "deinit"]
+- ["6Usteth8ServicesC", "getToken"]
+- ["6Usteth8ServicesC", "init"]
+- ["6Usteth8ServicesC", "removedToken"]
+- ["6Usteth8ServicesC", "savedToken"]
+- !private ["6Usteth8ServicesC", "tokenkey"]
+- ["6Usteth8ServicesC", "userDefault"]
+- !private ["So14NSUserDefaultsC", "object"]
+- !private ["So14NSUserDefaultsC", "removeObject"]
+- !private ["So14NSUserDefaultsC", "set"]
+- ["So14NSUserDefaultsC", "standard"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "object"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "removeObject"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "set"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "standard"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "object"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "removeObject"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "set"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "standard"]
+- !private ["6Usteth8tokenkeyV", "userLogin"]
+depends-nominal:
+- "s7CVarArgP"
+- "s28CustomDebugStringConvertibleP"
+- "s23CustomStringConvertibleP"
+- "SQ"
+- "SH"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- "6Usteth8ServicesC"
+- "So14NSUserDefaultsC"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "10Foundation37_KeyValueCodingAndObservingPublishingP"
+- !private "6Usteth8tokenkeyV"
+depends-dynamic-lookup:
+depends-external:
+- "/Volumes/Drive D/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/ObjectiveC.swiftmodule/arm64.swiftmodule"
+- "/Volumes/Drive D/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreImage.swiftmodule/arm64.swiftmodule"
+- "/Volumes/Drive D/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/QuartzCore.swiftmodule/arm64.swiftmodule"
+- "/Volumes/Drive D/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Dispatch.swiftmodule/arm64.swiftmodule"
+- "/Volumes/Drive D/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Metal.swiftmodule/arm64.swiftmodule"
+- "/Volumes/Drive D/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Darwin.swiftmodule/arm64.swiftmodule"
+- "/Volumes/Drive D/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Foundation.swiftmodule/arm64.swiftmodule"
+- "/Volumes/Drive D/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreFoundation.swiftmodule/arm64.swiftmodule"
+- "/Volumes/Drive D/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreGraphics.swiftmodule/arm64.swiftmodule"
+- "/Volumes/Drive D/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Swift.swiftmodule/arm64.swiftmodule"
+- "/Volumes/Drive D/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/UIKit.swiftmodule/arm64.swiftmodule"
+- "/Volumes/Drive D/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/SwiftOnoneSupport.swiftmodule/arm64.swiftmodule"
+- "/Volumes/Drive D/Desktop/core/core/core-exrnujscwplmkybdhfdnfurupjdq/Build/Products/Debug-iphoneos/SwiftyJSON.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Volumes/Drive D/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Combine.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Volumes/Drive D/Desktop/core/core/core-exrnujscwplmkybdhfdnfurupjdq/Build/Products/Debug-iphoneos/Alamofire.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Volumes/Drive D/Desktop/core/core/core-exrnujscwplmkybdhfdnfurupjdq/Build/Products/Debug-iphoneos/SoundWave/SoundWave.framework/Modules/SoundWave.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Volumes/Drive D/Desktop/core/core/core-exrnujscwplmkybdhfdnfurupjdq/Build/Products/Debug-iphoneos/CryptoSwift.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Volumes/Drive D/Desktop/core/core/core-exrnujscwplmkybdhfdnfurupjdq/Build/Products/Debug-iphoneos/SoundWave/SoundWave.framework/Headers/SoundWave-umbrella.h"
+- "/Volumes/Drive D/Desktop/core/core/core-exrnujscwplmkybdhfdnfurupjdq/Build/Products/Debug-iphoneos/SoundWave/SoundWave.framework/Headers/SoundWave-Swift.h"
+- "/Volumes/Drive D/Desktop/core/core/core-exrnujscwplmkybdhfdnfurupjdq/Build/Products/Debug-iphoneos/SoundWave/SoundWave.framework/Modules/module.modulemap"
+- "/Volumes/Drive D/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.4.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Volumes/Drive D/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.4.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Volumes/Drive D/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.4.sdk/System/Library/Frameworks/CoreMedia.framework/Headers/CoreMedia.apinotes"
+- "/Volumes/Drive D/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.4.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.apinotes"
+- "/Volumes/Drive D/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.4.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Volumes/Drive D/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.4.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Volumes/Drive D/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Volumes/Drive D/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.4.sdk/System/Library/Frameworks/CoreBluetooth.framework/Headers/CoreBluetooth.apinotes"
+- "/Volumes/Drive D/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.4.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Volumes/Drive D/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.4.sdk/usr/include/Darwin.apinotes"
+- "/Volumes/Drive D/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.4.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Volumes/Drive D/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.4.sdk/System/Library/Frameworks/AVFoundation.framework/Headers/AVFoundation.apinotes"
+- "/Volumes/Drive D/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.4.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Volumes/Drive D/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.4.sdk/System/Library/Frameworks/CoreAudioTypes.framework/Headers/CoreAudioTypes.apinotes"
+- "/Volumes/Drive D/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.4.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Volumes/Drive D/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/os.apinotes"
+- "/Volumes/Drive D/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.4.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Volumes/Drive D/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.4.sdk/System/Library/Frameworks/AVKit.framework/Headers/AVKit.apinotes"
+- "/Volumes/Drive D/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.4.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Volumes/Drive D/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.4.sdk/System/Library/Frameworks/MediaToolbox.framework/Headers/MediaToolbox.apinotes"
+- "/Volumes/Drive D/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.4.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioToolbox.apinotes"
+- "/Volumes/Drive D/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.4.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "d3ad8d7b5ef4a008a85f11411cea781a"

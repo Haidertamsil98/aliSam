@@ -1,0 +1,184 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "strideCount"
+provides-nominal:
+provides-member:
+- ["Sl", ""]
+- ["Sl", "toUInt32Array"]
+- ["Sl", "toUInt64Array"]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "!"
+- !private "%"
+- !private "+"
+- !private "+="
+- !private "-"
+- !private "/"
+- !private "=="
+- !private ">"
+- "Array"
+- !private "AssignmentPrecedence"
+- "Collection"
+- !private "FloatLiteralType"
+- "Int"
+- !private "IntegerLiteralType"
+- "TernaryPrecedence"
+- "UInt32"
+- "UInt64"
+- "UInt8"
+- !private "assert"
+- !private "stride"
+- "strideCount"
+depends-member:
+- !private ["s18AdditiveArithmeticP", "bigEndian"]
+- !private ["s18AdditiveArithmeticP", "init"]
+- !private ["Sa", "init"]
+- !private ["SK", "init"]
+- !private ["SK", "subscript"]
+- !private ["Sz", "bigEndian"]
+- !private ["Sz", "init"]
+- !private ["s7CVarArgP", "bigEndian"]
+- !private ["s7CVarArgP", "init"]
+- ["Sl", "Array"]
+- ["Sl", "Int"]
+- ["Sl", "UInt32"]
+- ["Sl", "UInt64"]
+- ["Sl", "UInt8"]
+- !private ["Sl", "assert"]
+- !private ["Sl", "endIndex"]
+- !private ["Sl", "init"]
+- !private ["Sl", "isEmpty"]
+- !private ["Sl", "startIndex"]
+- !private ["Sl", "stride"]
+- !private ["Sl", "strideCount"]
+- !private ["Sl", "subscript"]
+- ["Sl", "toUInt32Array"]
+- ["Sl", "toUInt64Array"]
+- !private ["SL", "bigEndian"]
+- !private ["SL", "init"]
+- !private ["10Foundation15ContiguousBytesP", "init"]
+- !private ["10Foundation15ContiguousBytesP", "subscript"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- !private ["s17CustomReflectableP", "bigEndian"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s23CustomStringConvertibleP", "bigEndian"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["10Foundation12DataProtocolP", "init"]
+- !private ["Se", "bigEndian"]
+- !private ["Se", "init"]
+- !private ["SE", "bigEndian"]
+- !private ["SE", "init"]
+- !private ["SQ", "bigEndian"]
+- !private ["SQ", "init"]
+- !private ["s25ExpressibleByArrayLiteralP", "init"]
+- !private ["s27ExpressibleByIntegerLiteralP", "bigEndian"]
+- !private ["s27ExpressibleByIntegerLiteralP", "init"]
+- !private ["s17FixedWidthIntegerP", "bigEndian"]
+- !private ["s17FixedWidthIntegerP", "init"]
+- !private ["SH", "bigEndian"]
+- !private ["SH", "init"]
+- !private ["s25LosslessStringConvertibleP", "bigEndian"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["SM", "init"]
+- !private ["SM", "subscript"]
+- !private ["10Foundation19MutableDataProtocolP", "init"]
+- !private ["Sj", "bigEndian"]
+- !private ["Sj", "init"]
+- !private ["Sk", "init"]
+- !private ["Sk", "subscript"]
+- !private ["Sm", "init"]
+- !private ["s10SIMDScalarP", "bigEndian"]
+- !private ["s10SIMDScalarP", "init"]
+- ["ST", "Array"]
+- ["ST", "Int"]
+- ["ST", "UInt32"]
+- ["ST", "UInt64"]
+- ["ST", "UInt8"]
+- !private ["ST", "assert"]
+- !private ["ST", "endIndex"]
+- !private ["ST", "init"]
+- !private ["ST", "isEmpty"]
+- !private ["ST", "startIndex"]
+- !private ["ST", "stride"]
+- !private ["ST", "strideCount"]
+- !private ["ST", "subscript"]
+- !private ["Sx", "bigEndian"]
+- !private ["Sx", "init"]
+- !private ["s6UInt32V", "bigEndian"]
+- !private ["s6UInt32V", "init"]
+- !private ["s6UInt64V", "bigEndian"]
+- !private ["s6UInt64V", "init"]
+- !private ["Sr", "subscript"]
+- !private ["SU", "bigEndian"]
+- !private ["SU", "init"]
+- !private ["s14_ArrayProtocolP", "init"]
+- !private ["s15_CVarArgAlignedP", "bigEndian"]
+- !private ["s15_CVarArgAlignedP", "init"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "bigEndian"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "init"]
+- !private ["s24_DestructorSafeContainerP", "init"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "bigEndian"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- !private ["s19_HasContiguousBytesP", "init"]
+- !private ["s19_HasContiguousBytesP", "subscript"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "bigEndian"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "bigEndian"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["11CryptoSwift11_UInt32TypeP", "bigEndian"]
+- !private ["11CryptoSwift11_UInt32TypeP", "init"]
+depends-nominal:
+- !private "s18AdditiveArithmeticP"
+- !private "Sa"
+- !private "SK"
+- !private "Sz"
+- !private "s7CVarArgP"
+- "Sl"
+- !private "SL"
+- !private "10Foundation15ContiguousBytesP"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "10Foundation12DataProtocolP"
+- !private "Se"
+- !private "SE"
+- !private "SQ"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s27ExpressibleByIntegerLiteralP"
+- !private "s17FixedWidthIntegerP"
+- !private "SH"
+- !private "s25LosslessStringConvertibleP"
+- !private "SM"
+- !private "10Foundation19MutableDataProtocolP"
+- !private "Sj"
+- !private "Sk"
+- !private "Sm"
+- !private "s10SIMDScalarP"
+- "ST"
+- !private "Sx"
+- !private "s6UInt32V"
+- !private "s6UInt64V"
+- !private "Sr"
+- !private "SU"
+- !private "s14_ArrayProtocolP"
+- !private "s15_CVarArgAlignedP"
+- !private "s30_CustomPlaygroundQuickLookableP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- !private "s19_HasContiguousBytesP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "11CryptoSwift11_UInt32TypeP"
+depends-dynamic-lookup:
+depends-external:
+- "/Volumes/Drive D/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Darwin.swiftmodule/arm64.swiftmodule"
+- "/Volumes/Drive D/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Foundation.swiftmodule/arm64.swiftmodule"
+- "/Volumes/Drive D/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Combine.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Volumes/Drive D/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.4.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Volumes/Drive D/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Volumes/Drive D/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.4.sdk/usr/include/Darwin.apinotes"
+- "/Volumes/Drive D/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.4.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Volumes/Drive D/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.4.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Volumes/Drive D/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.4.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "bbed4dd36782841039d5fcef658d99fa"

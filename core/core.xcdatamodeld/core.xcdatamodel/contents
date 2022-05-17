@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="16119" systemVersion="19G73" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Audio" representedClassName="Audio" syncable="YES" codeGenerationType="class">
+        <attribute name="audioPath" optional="YES" attributeType="String"/>
+        <attribute name="diagnosis" optional="YES" attributeType="String"/>
+        <attribute name="location" optional="YES" attributeType="String"/>
+        <attribute name="patient" optional="YES" attributeType="String"/>
+        <attribute name="position" optional="YES" attributeType="String"/>
+        <relationship name="student" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Student" inverseName="audio" inverseEntity="Student"/>
+    </entity>
+    <entity name="Doctor" representedClassName="Doctor" syncable="YES" codeGenerationType="class">
+        <attribute name="id" optional="YES" attributeType="String"/>
+        <relationship name="student" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Student" inverseName="doctor" inverseEntity="Student"/>
+    </entity>
+    <entity name="Entity" representedClassName="Entity" syncable="YES" codeGenerationType="class"/>
+    <entity name="Student" representedClassName="Student" syncable="YES">
+        <attribute name="age" optional="YES" attributeType="String"/>
+        <attribute name="city" optional="YES" attributeType="String"/>
+        <attribute name="cnic" optional="YES" attributeType="String"/>
+        <attribute name="contact" optional="YES" attributeType="String"/>
+        <attribute name="drID" optional="YES" attributeType="String"/>
+        <attribute name="name" optional="YES" attributeType="String"/>
+        <relationship name="audio" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Audio" inverseName="student" inverseEntity="Audio"/>
+        <relationship name="doctor" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Doctor" inverseName="student" inverseEntity="Doctor"/>
+        <fetchedProperty name="haiderr" optional="YES">
+            <fetchRequest name="fetchedPropertyFetchRequest" entity="Student"/>
+        </fetchedProperty>
+    </entity>
+    <elements>
+        <element name="Audio" positionX="-23.14453125" positionY="27.37890625" width="128" height="133"/>
+        <element name="Doctor" positionX="-162" positionY="-54" width="128" height="28"/>
+        <element name="Entity" positionX="-162" positionY="-45" width="128" height="43"/>
+        <element name="Student" positionX="-293.765625" positionY="-194.8203125" width="128" height="191"/>
+    </elements>
+</model>

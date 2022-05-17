@@ -1,0 +1,124 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "Updatable"
+provides-nominal:
+- "11CryptoSwift9UpdatableP"
+provides-member:
+- ["11CryptoSwift9UpdatableP", ""]
+- ["11CryptoSwift9UpdatableP", "update"]
+- ["11CryptoSwift9UpdatableP", "update"]
+- ["11CryptoSwift9UpdatableP", "update"]
+- ["11CryptoSwift9UpdatableP", "update"]
+- ["11CryptoSwift9UpdatableP", "finish"]
+- ["11CryptoSwift9UpdatableP", "finish"]
+- ["11CryptoSwift9UpdatableP", "finish"]
+- ["11CryptoSwift9UpdatableP", "finish"]
+- ["11CryptoSwift9UpdatableP", "finish"]
+- ["11CryptoSwift9UpdatableP", "finish"]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "!"
+- "Array"
+- "ArraySlice"
+- "Bool"
+- "BooleanLiteralType"
+- "UInt8"
+- "Updatable"
+- "Void"
+depends-member:
+- !private ["Sa", "isEmpty"]
+- !private ["Sa", "slice"]
+- !private ["SK", "isEmpty"]
+- !private ["SK", "slice"]
+- !private ["s7CVarArgP", "isEmpty"]
+- !private ["s7CVarArgP", "slice"]
+- !private ["Sl", "isEmpty"]
+- !private ["Sl", "slice"]
+- !private ["10Foundation15ContiguousBytesP", "isEmpty"]
+- !private ["10Foundation15ContiguousBytesP", "slice"]
+- !private ["s28CustomDebugStringConvertibleP", "isEmpty"]
+- !private ["s28CustomDebugStringConvertibleP", "slice"]
+- !private ["s17CustomReflectableP", "isEmpty"]
+- !private ["s17CustomReflectableP", "slice"]
+- !private ["s23CustomStringConvertibleP", "isEmpty"]
+- !private ["s23CustomStringConvertibleP", "slice"]
+- !private ["10Foundation12DataProtocolP", "isEmpty"]
+- !private ["10Foundation12DataProtocolP", "slice"]
+- !private ["Se", "isEmpty"]
+- !private ["Se", "slice"]
+- !private ["SE", "isEmpty"]
+- !private ["SE", "slice"]
+- !private ["SQ", "isEmpty"]
+- !private ["SQ", "slice"]
+- !private ["s25ExpressibleByArrayLiteralP", "isEmpty"]
+- !private ["s25ExpressibleByArrayLiteralP", "slice"]
+- !private ["SH", "isEmpty"]
+- !private ["SH", "slice"]
+- !private ["SM", "isEmpty"]
+- !private ["SM", "slice"]
+- !private ["10Foundation19MutableDataProtocolP", "isEmpty"]
+- !private ["10Foundation19MutableDataProtocolP", "slice"]
+- !private ["Sk", "isEmpty"]
+- !private ["Sk", "slice"]
+- !private ["Sm", "isEmpty"]
+- !private ["Sm", "slice"]
+- !private ["ST", "isEmpty"]
+- !private ["ST", "slice"]
+- ["11CryptoSwift9UpdatableP", "Array"]
+- ["11CryptoSwift9UpdatableP", "ArraySlice"]
+- ["11CryptoSwift9UpdatableP", "Bool"]
+- ["11CryptoSwift9UpdatableP", "UInt8"]
+- ["11CryptoSwift9UpdatableP", "Void"]
+- ["11CryptoSwift9UpdatableP", "finish"]
+- ["11CryptoSwift9UpdatableP", "update"]
+- !private ["s14_ArrayProtocolP", "isEmpty"]
+- !private ["s14_ArrayProtocolP", "slice"]
+- !private ["s24_DestructorSafeContainerP", "isEmpty"]
+- !private ["s24_DestructorSafeContainerP", "slice"]
+- !private ["s19_HasContiguousBytesP", "isEmpty"]
+- !private ["s19_HasContiguousBytesP", "slice"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "isEmpty"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "slice"]
+- !private ["s21_ObjectiveCBridgeableP", "isEmpty"]
+- !private ["s21_ObjectiveCBridgeableP", "slice"]
+depends-nominal:
+- !private "Sa"
+- !private "SK"
+- !private "s7CVarArgP"
+- !private "Sl"
+- !private "10Foundation15ContiguousBytesP"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "10Foundation12DataProtocolP"
+- !private "Se"
+- !private "SE"
+- !private "SQ"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "SH"
+- !private "SM"
+- !private "10Foundation19MutableDataProtocolP"
+- !private "Sk"
+- !private "Sm"
+- !private "ST"
+- "11CryptoSwift9UpdatableP"
+- !private "s14_ArrayProtocolP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s19_HasContiguousBytesP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Volumes/Drive D/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/ObjectiveC.swiftmodule/arm64.swiftmodule"
+- "/Volumes/Drive D/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Dispatch.swiftmodule/arm64.swiftmodule"
+- "/Volumes/Drive D/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Darwin.swiftmodule/arm64.swiftmodule"
+- "/Volumes/Drive D/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Foundation.swiftmodule/arm64.swiftmodule"
+- "/Volumes/Drive D/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreFoundation.swiftmodule/arm64.swiftmodule"
+- "/Volumes/Drive D/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Combine.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Volumes/Drive D/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.4.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Volumes/Drive D/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Volumes/Drive D/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.4.sdk/usr/include/Darwin.apinotes"
+- "/Volumes/Drive D/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.4.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Volumes/Drive D/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.4.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Volumes/Drive D/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.4.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "9572125ad0b3b33205a725aadda6b1c4"

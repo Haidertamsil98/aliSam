@@ -1,0 +1,260 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "Chronometer"
+provides-nominal:
+- "9SoundWave11ChronometerC"
+provides-member:
+- ["9SoundWave11ChronometerC", ""]
+provides-dynamic-lookup:
+- "isPlaying"
+- "pause"
+- "start"
+- "stop"
+- "timeInterval"
+- "timer"
+- "timerCurrentValue"
+- "timerDidComplete"
+- "timerDidTrigger"
+- "timerDidUpdate"
+depends-top-level:
+- !private "+="
+- "AssignmentPrecedence"
+- "Bool"
+- "BooleanLiteralType"
+- "Chronometer"
+- "FloatLiteralType"
+- "NSObject"
+- !private "RunLoop"
+- "TimeInterval"
+- "Timer"
+depends-member:
+- !private ["s7CVarArgP", "Chronometer"]
+- !private ["s7CVarArgP", "RunLoop"]
+- !private ["s7CVarArgP", "Timer"]
+- ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "add"]
+- !private ["s7CVarArgP", "fire"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "invalidate"]
+- !private ["s7CVarArgP", "isPlaying"]
+- !private ["s7CVarArgP", "main"]
+- !private ["s7CVarArgP", "timeInterval"]
+- !private ["s7CVarArgP", "timer"]
+- !private ["s7CVarArgP", "timerCurrentValue"]
+- !private ["s7CVarArgP", "timerDidComplete"]
+- !private ["s7CVarArgP", "timerDidTrigger"]
+- !private ["s7CVarArgP", "timerDidUpdate"]
+- ["9SoundWave11ChronometerC", "Bool"]
+- !private ["9SoundWave11ChronometerC", "Chronometer"]
+- !private ["9SoundWave11ChronometerC", "RunLoop"]
+- ["9SoundWave11ChronometerC", "TimeInterval"]
+- ["9SoundWave11ChronometerC", "Timer"]
+- ["9SoundWave11ChronometerC", "deinit"]
+- ["9SoundWave11ChronometerC", "init"]
+- ["9SoundWave11ChronometerC", "isPlaying"]
+- ["9SoundWave11ChronometerC", "pause"]
+- ["9SoundWave11ChronometerC", "start"]
+- ["9SoundWave11ChronometerC", "stop"]
+- !private ["9SoundWave11ChronometerC", "timeInterval"]
+- !private ["9SoundWave11ChronometerC", "timer"]
+- ["9SoundWave11ChronometerC", "timerCurrentValue"]
+- ["9SoundWave11ChronometerC", "timerDidComplete"]
+- !private ["9SoundWave11ChronometerC", "timerDidTrigger"]
+- ["9SoundWave11ChronometerC", "timerDidUpdate"]
+- !private ["s28CustomDebugStringConvertibleP", "Chronometer"]
+- !private ["s28CustomDebugStringConvertibleP", "RunLoop"]
+- !private ["s28CustomDebugStringConvertibleP", "Timer"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "add"]
+- !private ["s28CustomDebugStringConvertibleP", "fire"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "invalidate"]
+- !private ["s28CustomDebugStringConvertibleP", "isPlaying"]
+- !private ["s28CustomDebugStringConvertibleP", "main"]
+- !private ["s28CustomDebugStringConvertibleP", "timeInterval"]
+- !private ["s28CustomDebugStringConvertibleP", "timer"]
+- !private ["s28CustomDebugStringConvertibleP", "timerCurrentValue"]
+- !private ["s28CustomDebugStringConvertibleP", "timerDidComplete"]
+- !private ["s28CustomDebugStringConvertibleP", "timerDidTrigger"]
+- !private ["s28CustomDebugStringConvertibleP", "timerDidUpdate"]
+- !private ["s23CustomStringConvertibleP", "Chronometer"]
+- !private ["s23CustomStringConvertibleP", "RunLoop"]
+- !private ["s23CustomStringConvertibleP", "Timer"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "add"]
+- !private ["s23CustomStringConvertibleP", "fire"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "invalidate"]
+- !private ["s23CustomStringConvertibleP", "isPlaying"]
+- !private ["s23CustomStringConvertibleP", "main"]
+- !private ["s23CustomStringConvertibleP", "timeInterval"]
+- !private ["s23CustomStringConvertibleP", "timer"]
+- !private ["s23CustomStringConvertibleP", "timerCurrentValue"]
+- !private ["s23CustomStringConvertibleP", "timerDidComplete"]
+- !private ["s23CustomStringConvertibleP", "timerDidTrigger"]
+- !private ["s23CustomStringConvertibleP", "timerDidUpdate"]
+- !private ["SQ", "Chronometer"]
+- !private ["SQ", "RunLoop"]
+- !private ["SQ", "Timer"]
+- ["SQ", ""]
+- !private ["SQ", "add"]
+- !private ["SQ", "default"]
+- !private ["SQ", "fire"]
+- !private ["SQ", "init"]
+- !private ["SQ", "invalidate"]
+- !private ["SQ", "isPlaying"]
+- !private ["SQ", "main"]
+- !private ["SQ", "timeInterval"]
+- !private ["SQ", "timer"]
+- !private ["SQ", "timerCurrentValue"]
+- !private ["SQ", "timerDidComplete"]
+- !private ["SQ", "timerDidTrigger"]
+- !private ["SQ", "timerDidUpdate"]
+- !private ["SH", "Chronometer"]
+- !private ["SH", "RunLoop"]
+- !private ["SH", "Timer"]
+- ["SH", ""]
+- !private ["SH", "add"]
+- !private ["SH", "default"]
+- !private ["SH", "fire"]
+- !private ["SH", "init"]
+- !private ["SH", "invalidate"]
+- !private ["SH", "isPlaying"]
+- !private ["SH", "main"]
+- !private ["SH", "timeInterval"]
+- !private ["SH", "timer"]
+- !private ["SH", "timerCurrentValue"]
+- !private ["SH", "timerDidComplete"]
+- !private ["SH", "timerDidTrigger"]
+- !private ["SH", "timerDidUpdate"]
+- !private ["So13NSRunLoopModea", "default"]
+- ["So8NSObjectC", "Bool"]
+- !private ["So8NSObjectC", "Chronometer"]
+- !private ["So8NSObjectC", "RunLoop"]
+- ["So8NSObjectC", "TimeInterval"]
+- ["So8NSObjectC", "Timer"]
+- ["So8NSObjectC", ""]
+- !private ["So8NSObjectC", "add"]
+- !private ["So8NSObjectC", "fire"]
+- ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "invalidate"]
+- ["So8NSObjectC", "isPlaying"]
+- !private ["So8NSObjectC", "main"]
+- ["So8NSObjectC", "pause"]
+- ["So8NSObjectC", "start"]
+- ["So8NSObjectC", "stop"]
+- ["So8NSObjectC", "timeInterval"]
+- ["So8NSObjectC", "timer"]
+- ["So8NSObjectC", "timerCurrentValue"]
+- ["So8NSObjectC", "timerDidComplete"]
+- ["So8NSObjectC", "timerDidTrigger"]
+- ["So8NSObjectC", "timerDidUpdate"]
+- !private ["So8NSObjectP", "Chronometer"]
+- !private ["So8NSObjectP", "RunLoop"]
+- !private ["So8NSObjectP", "Timer"]
+- ["So8NSObjectP", ""]
+- !private ["So8NSObjectP", "add"]
+- !private ["So8NSObjectP", "fire"]
+- !private ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "invalidate"]
+- !private ["So8NSObjectP", "isPlaying"]
+- !private ["So8NSObjectP", "main"]
+- !private ["So8NSObjectP", "timeInterval"]
+- !private ["So8NSObjectP", "timer"]
+- !private ["So8NSObjectP", "timerCurrentValue"]
+- !private ["So8NSObjectP", "timerDidComplete"]
+- !private ["So8NSObjectP", "timerDidTrigger"]
+- !private ["So8NSObjectP", "timerDidUpdate"]
+- !private ["SY", "default"]
+- !private ["So9NSRunLoopC", "add"]
+- !private ["So9NSRunLoopC", "main"]
+- !private ["7Combine9SchedulerP", "add"]
+- !private ["7Combine9SchedulerP", "main"]
+- !private ["So7NSTimerC", "fire"]
+- !private ["So7NSTimerC", "init"]
+- !private ["So7NSTimerC", "invalidate"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "default"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "Chronometer"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "RunLoop"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "Timer"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "add"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "fire"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "invalidate"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "isPlaying"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "main"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "timeInterval"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "timer"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "timerCurrentValue"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "timerDidComplete"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "timerDidTrigger"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "timerDidUpdate"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "Chronometer"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "RunLoop"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "Timer"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", ""]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "add"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "fire"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "init"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "invalidate"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "isPlaying"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "main"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "timeInterval"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "timer"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "timerCurrentValue"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "timerDidComplete"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "timerDidTrigger"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "timerDidUpdate"]
+- !private ["s21_ObjectiveCBridgeableP", "default"]
+- !private ["s20_SwiftNewtypeWrapperP", "default"]
+depends-nominal:
+- "s7CVarArgP"
+- "9SoundWave11ChronometerC"
+- "s28CustomDebugStringConvertibleP"
+- "s23CustomStringConvertibleP"
+- "SQ"
+- "SH"
+- !private "So13NSRunLoopModea"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- !private "SY"
+- !private "So9NSRunLoopC"
+- !private "7Combine9SchedulerP"
+- !private "So7NSTimerC"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "10Foundation37_KeyValueCodingAndObservingPublishingP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s20_SwiftNewtypeWrapperP"
+depends-dynamic-lookup:
+depends-external:
+- "/Volumes/Drive D/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/ObjectiveC.swiftmodule/arm64.swiftmodule"
+- "/Volumes/Drive D/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreImage.swiftmodule/arm64.swiftmodule"
+- "/Volumes/Drive D/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/QuartzCore.swiftmodule/arm64.swiftmodule"
+- "/Volumes/Drive D/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Dispatch.swiftmodule/arm64.swiftmodule"
+- "/Volumes/Drive D/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Metal.swiftmodule/arm64.swiftmodule"
+- "/Volumes/Drive D/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Darwin.swiftmodule/arm64.swiftmodule"
+- "/Volumes/Drive D/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Foundation.swiftmodule/arm64.swiftmodule"
+- "/Volumes/Drive D/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreFoundation.swiftmodule/arm64.swiftmodule"
+- "/Volumes/Drive D/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreGraphics.swiftmodule/arm64.swiftmodule"
+- "/Volumes/Drive D/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Swift.swiftmodule/arm64.swiftmodule"
+- "/Volumes/Drive D/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/UIKit.swiftmodule/arm64.swiftmodule"
+- "/Volumes/Drive D/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/SwiftOnoneSupport.swiftmodule/arm64.swiftmodule"
+- "/Volumes/Drive D/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Combine.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Volumes/Drive D/Desktop/core/Pods/Target Support Files/SoundWave/SoundWave-umbrella.h"
+- "/Volumes/Drive D/Desktop/core/core/core-exrnujscwplmkybdhfdnfurupjdq/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/SoundWave.build/unextended-module.modulemap"
+- "/Volumes/Drive D/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.4.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Volumes/Drive D/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.4.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Volumes/Drive D/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.4.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Volumes/Drive D/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.4.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Volumes/Drive D/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Volumes/Drive D/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.4.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Volumes/Drive D/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.4.sdk/usr/include/Darwin.apinotes"
+- "/Volumes/Drive D/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.4.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Volumes/Drive D/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.4.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Volumes/Drive D/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.4.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Volumes/Drive D/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.4.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Volumes/Drive D/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.4.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Volumes/Drive D/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.4.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "5de55653ef07448c7b1af2b2c91af4aa"

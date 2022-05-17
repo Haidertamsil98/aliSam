@@ -1,0 +1,10 @@
+dependencies: \
+  /Volumes/Drive\ D/Desktop/core/Pods/EZAudio/EZAudio/EZAudioPlayer.m \
+  /Volumes/Drive\ D/Desktop/core/core/core-exrnujscwplmkybdhfdnfurupjdq/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/EZAudio.build/module.modulemap \
+  /Volumes/Drive\ D/Desktop/core/Pods/Target\ Support\ Files/EZAudio/EZAudio-prefix.pch \
+  /Volumes/Drive\ D/Desktop/core/Pods/EZAudio/EZAudio/EZAudioPlayer.h \
+  /Volumes/Drive\ D/Desktop/core/Pods/EZAudio/EZAudio/EZAudioFile.h \
+  /Volumes/Drive\ D/Desktop/core/Pods/EZAudio/EZAudio/EZAudioFloatData.h \
+  /Volumes/Drive\ D/Desktop/core/Pods/EZAudio/EZAudio/EZOutput.h \
+  /Volumes/Drive\ D/Desktop/core/Pods/EZAudio/EZAudio/EZAudioUtilities.h \
+  /Volumes/Drive\ D/Desktop/core/Pods/EZAudio/EZAudio/TPCircularBuffer.h

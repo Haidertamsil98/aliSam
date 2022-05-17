@@ -1,0 +1,94 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "Hash"
+- "Digest"
+provides-nominal:
+- "11CryptoSwift6DigestV"
+provides-member:
+- ["11CryptoSwift6DigestV", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "Array"
+- "Digest"
+- "Hash"
+- !private "MD5"
+- !private "SHA1"
+- "SHA2"
+- "SHA3"
+- "UInt8"
+depends-member:
+- ["11CryptoSwift6DigestV", "Array"]
+- !private ["11CryptoSwift6DigestV", "MD5"]
+- !private ["11CryptoSwift6DigestV", "SHA1"]
+- ["11CryptoSwift6DigestV", "SHA2"]
+- ["11CryptoSwift6DigestV", "SHA3"]
+- ["11CryptoSwift6DigestV", "UInt8"]
+- ["11CryptoSwift6DigestV", "init"]
+- ["11CryptoSwift6DigestV", "md5"]
+- ["11CryptoSwift6DigestV", "sha1"]
+- ["11CryptoSwift6DigestV", "sha2"]
+- ["11CryptoSwift6DigestV", "sha224"]
+- ["11CryptoSwift6DigestV", "sha256"]
+- ["11CryptoSwift6DigestV", "sha3"]
+- ["11CryptoSwift6DigestV", "sha384"]
+- ["11CryptoSwift6DigestV", "sha512"]
+- ["11CryptoSwift10DigestTypeP", "Variant"]
+- !private ["11CryptoSwift10DigestTypeP", "calculate"]
+- !private ["11CryptoSwift10DigestTypeP", "init"]
+- !private ["SQ", "sha224"]
+- !private ["SQ", "sha256"]
+- !private ["SQ", "sha384"]
+- !private ["SQ", "sha512"]
+- !private ["SH", "sha224"]
+- !private ["SH", "sha256"]
+- !private ["SH", "sha384"]
+- !private ["SH", "sha512"]
+- !private ["11CryptoSwift3MD5C", "calculate"]
+- !private ["11CryptoSwift3MD5C", "deinit"]
+- !private ["11CryptoSwift3MD5C", "init"]
+- !private ["SY", "sha224"]
+- !private ["SY", "sha256"]
+- !private ["SY", "sha384"]
+- !private ["SY", "sha512"]
+- !private ["11CryptoSwift4SHA1C", "calculate"]
+- !private ["11CryptoSwift4SHA1C", "deinit"]
+- !private ["11CryptoSwift4SHA1C", "init"]
+- ["11CryptoSwift4SHA2C", "Variant"]
+- !private ["11CryptoSwift4SHA2C", "calculate"]
+- !private ["11CryptoSwift4SHA2C", "deinit"]
+- !private ["11CryptoSwift4SHA2C", "init"]
+- ["11CryptoSwift4SHA3C", "Variant"]
+- !private ["11CryptoSwift4SHA3C", "calculate"]
+- !private ["11CryptoSwift4SHA3C", "deinit"]
+- !private ["11CryptoSwift4SHA3C", "init"]
+- ["11CryptoSwift9UpdatableP", "Variant"]
+- !private ["11CryptoSwift9UpdatableP", "calculate"]
+- !private ["11CryptoSwift9UpdatableP", "init"]
+- !private ["11CryptoSwift4SHA2C7VariantO", "sha224"]
+- !private ["11CryptoSwift4SHA2C7VariantO", "sha256"]
+- !private ["11CryptoSwift4SHA2C7VariantO", "sha384"]
+- !private ["11CryptoSwift4SHA2C7VariantO", "sha512"]
+depends-nominal:
+- "11CryptoSwift6DigestV"
+- "11CryptoSwift10DigestTypeP"
+- !private "SQ"
+- !private "SH"
+- !private "11CryptoSwift3MD5C"
+- !private "SY"
+- !private "11CryptoSwift4SHA1C"
+- "11CryptoSwift4SHA2C"
+- "11CryptoSwift4SHA3C"
+- "11CryptoSwift9UpdatableP"
+- !private "11CryptoSwift4SHA2C7VariantO"
+depends-dynamic-lookup:
+depends-external:
+- "/Volumes/Drive D/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Darwin.swiftmodule/arm64.swiftmodule"
+- "/Volumes/Drive D/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Foundation.swiftmodule/arm64.swiftmodule"
+- "/Volumes/Drive D/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Combine.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Volumes/Drive D/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.4.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Volumes/Drive D/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Volumes/Drive D/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.4.sdk/usr/include/Darwin.apinotes"
+- "/Volumes/Drive D/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.4.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Volumes/Drive D/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.4.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Volumes/Drive D/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.4.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "578abc0676c58763684ca41a32e52202"

@@ -1,0 +1,602 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "AudioPlayerManager"
+provides-nominal:
+- "6Usteth18AudioPlayerManagerC"
+provides-member:
+- ["6Usteth18AudioPlayerManagerC", ""]
+- ["So18NSNotificationNamea", ""]
+- ["So18NSNotificationNamea", "audioPlayerManagerMeteringLevelDidUpdateNotification"]
+- ["So18NSNotificationNamea", "audioPlayerManagerMeteringLevelDidFinishNotification"]
+provides-dynamic-lookup:
+- "audioMeteringLevelTimer"
+- "audioPlayer"
+- "audioPlayerDidFinishPlaying"
+- "isRunning"
+- "pause"
+- "play"
+- "resume"
+- "setupPlayer"
+- "shared"
+- "stop"
+- "timerDidUpdateMeter"
+depends-top-level:
+- !private "!"
+- !private "*"
+- !private "-"
+- !private "=="
+- "AVAudioPlayer"
+- "AVAudioPlayerDelegate"
+- "AssignmentPrecedence"
+- !private "AudioErrorType"
+- "AudioPlayerManager"
+- !private "AudioRecorderManager"
+- "Bool"
+- !private "BooleanLiteralType"
+- "Data"
+- !private "Float"
+- "FloatLiteralType"
+- !private "IntegerLiteralType"
+- "NSObject"
+- "Notification"
+- !private "NotificationCenter"
+- "StringLiteralType"
+- "TimeInterval"
+- "Timer"
+- "URL"
+- !private "audioPercentageUserInfoKey"
+- !private "pow"
+- !private "print"
+depends-member:
+- !private ["So13AVAudioPlayerC", "averagePower"]
+- !private ["So13AVAudioPlayerC", "currentTime"]
+- !private ["So13AVAudioPlayerC", "delegate"]
+- !private ["So13AVAudioPlayerC", "duration"]
+- !private ["So13AVAudioPlayerC", "init"]
+- !private ["So13AVAudioPlayerC", "isMeteringEnabled"]
+- !private ["So13AVAudioPlayerC", "isPlaying"]
+- !private ["So13AVAudioPlayerC", "pause"]
+- !private ["So13AVAudioPlayerC", "play"]
+- !private ["So13AVAudioPlayerC", "stop"]
+- !private ["So13AVAudioPlayerC", "updateMeters"]
+- !private ["So21AVAudioPlayerDelegateP", "AVAudioPlayer"]
+- !private ["So21AVAudioPlayerDelegateP", "AudioErrorType"]
+- ["So21AVAudioPlayerDelegateP", "AudioPlayerManager"]
+- !private ["So21AVAudioPlayerDelegateP", "AudioRecorderManager"]
+- !private ["So21AVAudioPlayerDelegateP", "NotificationCenter"]
+- !private ["So21AVAudioPlayerDelegateP", "Timer"]
+- !private ["So21AVAudioPlayerDelegateP", "URL"]
+- ["So21AVAudioPlayerDelegateP", ""]
+- !private ["So21AVAudioPlayerDelegateP", "audioMeteringLevelTimer"]
+- !private ["So21AVAudioPlayerDelegateP", "audioPercentageUserInfoKey"]
+- !private ["So21AVAudioPlayerDelegateP", "audioPlayer"]
+- ["So21AVAudioPlayerDelegateP", "audioPlayerBeginInterruption"]
+- ["So21AVAudioPlayerDelegateP", "audioPlayerDecodeErrorDidOccur"]
+- ["So21AVAudioPlayerDelegateP", "audioPlayerDidFinishPlaying"]
+- ["So21AVAudioPlayerDelegateP", "audioPlayerEndInterruption"]
+- ["So21AVAudioPlayerDelegateP", "init"]
+- !private ["So21AVAudioPlayerDelegateP", "isRunning"]
+- !private ["So21AVAudioPlayerDelegateP", "pow"]
+- !private ["So21AVAudioPlayerDelegateP", "print"]
+- !private ["So21AVAudioPlayerDelegateP", "setupPlayer"]
+- !private ["So21AVAudioPlayerDelegateP", "timerDidUpdateMeter"]
+- !private ["So23AVAudioRecorderDelegateP", "isRunning"]
+- !private ["So23AVAudioRecorderDelegateP", "shared"]
+- !private ["6Usteth14AudioErrorTypeO", "alreadyPlaying"]
+- !private ["6Usteth14AudioErrorTypeO", "alreadyRecording"]
+- !private ["6Usteth14AudioErrorTypeO", "audioFileWrongPath"]
+- !private ["6Usteth14AudioErrorTypeO", "deinit"]
+- !private ["6Usteth14AudioErrorTypeO", "internalError"]
+- !private ["6Usteth14AudioErrorTypeO", "notCurrentlyPlaying"]
+- ["6Usteth18AudioPlayerManagerC", "AVAudioPlayer"]
+- !private ["6Usteth18AudioPlayerManagerC", "AudioErrorType"]
+- ["6Usteth18AudioPlayerManagerC", "AudioPlayerManager"]
+- !private ["6Usteth18AudioPlayerManagerC", "AudioRecorderManager"]
+- ["6Usteth18AudioPlayerManagerC", "Bool"]
+- ["6Usteth18AudioPlayerManagerC", "Data"]
+- !private ["6Usteth18AudioPlayerManagerC", "Float"]
+- !private ["6Usteth18AudioPlayerManagerC", "NotificationCenter"]
+- ["6Usteth18AudioPlayerManagerC", "TimeInterval"]
+- ["6Usteth18AudioPlayerManagerC", "Timer"]
+- ["6Usteth18AudioPlayerManagerC", "URL"]
+- !private ["6Usteth18AudioPlayerManagerC", "audioMeteringLevelTimer"]
+- !private ["6Usteth18AudioPlayerManagerC", "audioPercentageUserInfoKey"]
+- !private ["6Usteth18AudioPlayerManagerC", "audioPlayer"]
+- ["6Usteth18AudioPlayerManagerC", "audioPlayerBeginInterruption"]
+- ["6Usteth18AudioPlayerManagerC", "audioPlayerDecodeErrorDidOccur"]
+- ["6Usteth18AudioPlayerManagerC", "audioPlayerDidFinishPlaying"]
+- ["6Usteth18AudioPlayerManagerC", "audioPlayerEndInterruption"]
+- ["6Usteth18AudioPlayerManagerC", "deinit"]
+- ["6Usteth18AudioPlayerManagerC", "init"]
+- ["6Usteth18AudioPlayerManagerC", "isRunning"]
+- ["6Usteth18AudioPlayerManagerC", "pause"]
+- ["6Usteth18AudioPlayerManagerC", "play"]
+- !private ["6Usteth18AudioPlayerManagerC", "pow"]
+- !private ["6Usteth18AudioPlayerManagerC", "print"]
+- ["6Usteth18AudioPlayerManagerC", "resume"]
+- !private ["6Usteth18AudioPlayerManagerC", "setupPlayer"]
+- ["6Usteth18AudioPlayerManagerC", "shared"]
+- ["6Usteth18AudioPlayerManagerC", "stop"]
+- !private ["6Usteth18AudioPlayerManagerC", "timerDidUpdateMeter"]
+- !private ["6Usteth20AudioRecorderManagerC", "isRunning"]
+- !private ["6Usteth20AudioRecorderManagerC", "shared"]
+- !private ["s7CVarArgP", "AVAudioPlayer"]
+- !private ["s7CVarArgP", "AudioErrorType"]
+- ["s7CVarArgP", "AudioPlayerManager"]
+- !private ["s7CVarArgP", "AudioRecorderManager"]
+- !private ["s7CVarArgP", "NotificationCenter"]
+- !private ["s7CVarArgP", "Timer"]
+- !private ["s7CVarArgP", "URL"]
+- ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "audioMeteringLevelTimer"]
+- !private ["s7CVarArgP", "audioPercentageUserInfoKey"]
+- !private ["s7CVarArgP", "audioPlayer"]
+- ["s7CVarArgP", "audioPlayerBeginInterruption"]
+- ["s7CVarArgP", "audioPlayerDecodeErrorDidOccur"]
+- ["s7CVarArgP", "audioPlayerDidFinishPlaying"]
+- ["s7CVarArgP", "audioPlayerEndInterruption"]
+- !private ["s7CVarArgP", "averagePower"]
+- !private ["s7CVarArgP", "currentTime"]
+- !private ["s7CVarArgP", "default"]
+- !private ["s7CVarArgP", "delegate"]
+- !private ["s7CVarArgP", "duration"]
+- ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "isMeteringEnabled"]
+- !private ["s7CVarArgP", "isPlaying"]
+- !private ["s7CVarArgP", "isRunning"]
+- !private ["s7CVarArgP", "pause"]
+- !private ["s7CVarArgP", "play"]
+- !private ["s7CVarArgP", "post"]
+- !private ["s7CVarArgP", "pow"]
+- !private ["s7CVarArgP", "print"]
+- !private ["s7CVarArgP", "scheduledTimer"]
+- !private ["s7CVarArgP", "setupPlayer"]
+- !private ["s7CVarArgP", "shared"]
+- !private ["s7CVarArgP", "stop"]
+- !private ["s7CVarArgP", "timerDidUpdateMeter"]
+- !private ["s7CVarArgP", "updateMeters"]
+- !private ["s28CustomDebugStringConvertibleP", "AVAudioPlayer"]
+- !private ["s28CustomDebugStringConvertibleP", "AudioErrorType"]
+- ["s28CustomDebugStringConvertibleP", "AudioPlayerManager"]
+- !private ["s28CustomDebugStringConvertibleP", "AudioRecorderManager"]
+- ["s28CustomDebugStringConvertibleP", "Name"]
+- !private ["s28CustomDebugStringConvertibleP", "NotificationCenter"]
+- !private ["s28CustomDebugStringConvertibleP", "Timer"]
+- !private ["s28CustomDebugStringConvertibleP", "URL"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "audioMeteringLevelTimer"]
+- !private ["s28CustomDebugStringConvertibleP", "audioPercentageUserInfoKey"]
+- !private ["s28CustomDebugStringConvertibleP", "audioPlayer"]
+- ["s28CustomDebugStringConvertibleP", "audioPlayerBeginInterruption"]
+- ["s28CustomDebugStringConvertibleP", "audioPlayerDecodeErrorDidOccur"]
+- ["s28CustomDebugStringConvertibleP", "audioPlayerDidFinishPlaying"]
+- ["s28CustomDebugStringConvertibleP", "audioPlayerEndInterruption"]
+- !private ["s28CustomDebugStringConvertibleP", "averagePower"]
+- !private ["s28CustomDebugStringConvertibleP", "checkPath"]
+- !private ["s28CustomDebugStringConvertibleP", "currentTime"]
+- !private ["s28CustomDebugStringConvertibleP", "default"]
+- !private ["s28CustomDebugStringConvertibleP", "delegate"]
+- !private ["s28CustomDebugStringConvertibleP", "duration"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "isMeteringEnabled"]
+- !private ["s28CustomDebugStringConvertibleP", "isPlaying"]
+- !private ["s28CustomDebugStringConvertibleP", "isRunning"]
+- !private ["s28CustomDebugStringConvertibleP", "path"]
+- !private ["s28CustomDebugStringConvertibleP", "pause"]
+- !private ["s28CustomDebugStringConvertibleP", "play"]
+- !private ["s28CustomDebugStringConvertibleP", "post"]
+- !private ["s28CustomDebugStringConvertibleP", "pow"]
+- !private ["s28CustomDebugStringConvertibleP", "print"]
+- !private ["s28CustomDebugStringConvertibleP", "scheduledTimer"]
+- !private ["s28CustomDebugStringConvertibleP", "setupPlayer"]
+- !private ["s28CustomDebugStringConvertibleP", "shared"]
+- !private ["s28CustomDebugStringConvertibleP", "stop"]
+- !private ["s28CustomDebugStringConvertibleP", "timerDidUpdateMeter"]
+- !private ["s28CustomDebugStringConvertibleP", "updateMeters"]
+- ["s17CustomReflectableP", "Name"]
+- !private ["s23CustomStringConvertibleP", "AVAudioPlayer"]
+- !private ["s23CustomStringConvertibleP", "AudioErrorType"]
+- ["s23CustomStringConvertibleP", "AudioPlayerManager"]
+- !private ["s23CustomStringConvertibleP", "AudioRecorderManager"]
+- ["s23CustomStringConvertibleP", "Name"]
+- !private ["s23CustomStringConvertibleP", "NotificationCenter"]
+- !private ["s23CustomStringConvertibleP", "Timer"]
+- !private ["s23CustomStringConvertibleP", "URL"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "audioMeteringLevelTimer"]
+- !private ["s23CustomStringConvertibleP", "audioPercentageUserInfoKey"]
+- !private ["s23CustomStringConvertibleP", "audioPlayer"]
+- ["s23CustomStringConvertibleP", "audioPlayerBeginInterruption"]
+- ["s23CustomStringConvertibleP", "audioPlayerDecodeErrorDidOccur"]
+- ["s23CustomStringConvertibleP", "audioPlayerDidFinishPlaying"]
+- ["s23CustomStringConvertibleP", "audioPlayerEndInterruption"]
+- !private ["s23CustomStringConvertibleP", "averagePower"]
+- !private ["s23CustomStringConvertibleP", "checkPath"]
+- !private ["s23CustomStringConvertibleP", "currentTime"]
+- !private ["s23CustomStringConvertibleP", "default"]
+- !private ["s23CustomStringConvertibleP", "delegate"]
+- !private ["s23CustomStringConvertibleP", "duration"]
+- ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "isMeteringEnabled"]
+- !private ["s23CustomStringConvertibleP", "isPlaying"]
+- !private ["s23CustomStringConvertibleP", "isRunning"]
+- !private ["s23CustomStringConvertibleP", "path"]
+- !private ["s23CustomStringConvertibleP", "pause"]
+- !private ["s23CustomStringConvertibleP", "play"]
+- !private ["s23CustomStringConvertibleP", "post"]
+- !private ["s23CustomStringConvertibleP", "pow"]
+- !private ["s23CustomStringConvertibleP", "print"]
+- !private ["s23CustomStringConvertibleP", "scheduledTimer"]
+- !private ["s23CustomStringConvertibleP", "setupPlayer"]
+- !private ["s23CustomStringConvertibleP", "shared"]
+- !private ["s23CustomStringConvertibleP", "stop"]
+- !private ["s23CustomStringConvertibleP", "timerDidUpdateMeter"]
+- !private ["s23CustomStringConvertibleP", "updateMeters"]
+- !private ["Se", "checkPath"]
+- !private ["Se", "path"]
+- !private ["SE", "checkPath"]
+- !private ["SE", "path"]
+- !private ["SQ", "AVAudioPlayer"]
+- !private ["SQ", "AudioErrorType"]
+- ["SQ", "AudioPlayerManager"]
+- !private ["SQ", "AudioRecorderManager"]
+- ["SQ", "Name"]
+- ["SQ", "Notification"]
+- !private ["SQ", "NotificationCenter"]
+- !private ["SQ", "Timer"]
+- !private ["SQ", "URL"]
+- ["SQ", ""]
+- !private ["SQ", "alreadyPlaying"]
+- !private ["SQ", "alreadyRecording"]
+- !private ["SQ", "audioFileWrongPath"]
+- !private ["SQ", "audioMeteringLevelTimer"]
+- !private ["SQ", "audioPercentageUserInfoKey"]
+- !private ["SQ", "audioPlayer"]
+- ["SQ", "audioPlayerBeginInterruption"]
+- ["SQ", "audioPlayerDecodeErrorDidOccur"]
+- ["SQ", "audioPlayerDidFinishPlaying"]
+- ["SQ", "audioPlayerEndInterruption"]
+- !private ["SQ", "audioPlayerManagerMeteringLevelDidFinishNotification"]
+- !private ["SQ", "audioPlayerManagerMeteringLevelDidUpdateNotification"]
+- !private ["SQ", "averagePower"]
+- !private ["SQ", "checkPath"]
+- !private ["SQ", "currentTime"]
+- !private ["SQ", "default"]
+- !private ["SQ", "delegate"]
+- !private ["SQ", "duration"]
+- ["SQ", "init"]
+- !private ["SQ", "internalError"]
+- !private ["SQ", "isMeteringEnabled"]
+- !private ["SQ", "isPlaying"]
+- !private ["SQ", "isRunning"]
+- !private ["SQ", "notCurrentlyPlaying"]
+- !private ["SQ", "path"]
+- !private ["SQ", "pause"]
+- !private ["SQ", "play"]
+- !private ["SQ", "post"]
+- !private ["SQ", "pow"]
+- !private ["SQ", "print"]
+- !private ["SQ", "scheduledTimer"]
+- !private ["SQ", "setupPlayer"]
+- !private ["SQ", "shared"]
+- !private ["SQ", "stop"]
+- !private ["SQ", "timerDidUpdateMeter"]
+- !private ["SQ", "updateMeters"]
+- !private ["s5ErrorP", "alreadyPlaying"]
+- !private ["s5ErrorP", "alreadyRecording"]
+- !private ["s5ErrorP", "audioFileWrongPath"]
+- !private ["s5ErrorP", "internalError"]
+- !private ["s5ErrorP", "notCurrentlyPlaying"]
+- !private ["SH", "AVAudioPlayer"]
+- !private ["SH", "AudioErrorType"]
+- ["SH", "AudioPlayerManager"]
+- !private ["SH", "AudioRecorderManager"]
+- ["SH", "Name"]
+- ["SH", "Notification"]
+- !private ["SH", "NotificationCenter"]
+- !private ["SH", "Timer"]
+- !private ["SH", "URL"]
+- ["SH", ""]
+- !private ["SH", "alreadyPlaying"]
+- !private ["SH", "alreadyRecording"]
+- !private ["SH", "audioFileWrongPath"]
+- !private ["SH", "audioMeteringLevelTimer"]
+- !private ["SH", "audioPercentageUserInfoKey"]
+- !private ["SH", "audioPlayer"]
+- ["SH", "audioPlayerBeginInterruption"]
+- ["SH", "audioPlayerDecodeErrorDidOccur"]
+- ["SH", "audioPlayerDidFinishPlaying"]
+- ["SH", "audioPlayerEndInterruption"]
+- !private ["SH", "audioPlayerManagerMeteringLevelDidFinishNotification"]
+- !private ["SH", "audioPlayerManagerMeteringLevelDidUpdateNotification"]
+- !private ["SH", "averagePower"]
+- !private ["SH", "checkPath"]
+- !private ["SH", "currentTime"]
+- !private ["SH", "default"]
+- !private ["SH", "delegate"]
+- !private ["SH", "duration"]
+- ["SH", "init"]
+- !private ["SH", "internalError"]
+- !private ["SH", "isMeteringEnabled"]
+- !private ["SH", "isPlaying"]
+- !private ["SH", "isRunning"]
+- !private ["SH", "notCurrentlyPlaying"]
+- !private ["SH", "path"]
+- !private ["SH", "pause"]
+- !private ["SH", "play"]
+- !private ["SH", "post"]
+- !private ["SH", "pow"]
+- !private ["SH", "print"]
+- !private ["SH", "scheduledTimer"]
+- !private ["SH", "setupPlayer"]
+- !private ["SH", "shared"]
+- !private ["SH", "stop"]
+- !private ["SH", "timerDidUpdateMeter"]
+- !private ["SH", "updateMeters"]
+- !private ["10Foundation14LocalizedErrorP", "alreadyPlaying"]
+- !private ["10Foundation14LocalizedErrorP", "alreadyRecording"]
+- !private ["10Foundation14LocalizedErrorP", "audioFileWrongPath"]
+- !private ["10Foundation14LocalizedErrorP", "internalError"]
+- !private ["10Foundation14LocalizedErrorP", "notCurrentlyPlaying"]
+- ["So8NSObjectC", "AVAudioPlayer"]
+- !private ["So8NSObjectC", "AudioErrorType"]
+- ["So8NSObjectC", "AudioPlayerManager"]
+- !private ["So8NSObjectC", "AudioRecorderManager"]
+- ["So8NSObjectC", "Bool"]
+- ["So8NSObjectC", "Data"]
+- !private ["So8NSObjectC", "Float"]
+- !private ["So8NSObjectC", "NotificationCenter"]
+- ["So8NSObjectC", "TimeInterval"]
+- ["So8NSObjectC", "Timer"]
+- ["So8NSObjectC", "URL"]
+- ["So8NSObjectC", ""]
+- ["So8NSObjectC", "audioMeteringLevelTimer"]
+- !private ["So8NSObjectC", "audioPercentageUserInfoKey"]
+- ["So8NSObjectC", "audioPlayer"]
+- ["So8NSObjectC", "audioPlayerBeginInterruption"]
+- ["So8NSObjectC", "audioPlayerDecodeErrorDidOccur"]
+- ["So8NSObjectC", "audioPlayerDidFinishPlaying"]
+- ["So8NSObjectC", "audioPlayerEndInterruption"]
+- !private ["So8NSObjectC", "averagePower"]
+- !private ["So8NSObjectC", "currentTime"]
+- !private ["So8NSObjectC", "default"]
+- !private ["So8NSObjectC", "delegate"]
+- !private ["So8NSObjectC", "duration"]
+- ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "isMeteringEnabled"]
+- !private ["So8NSObjectC", "isPlaying"]
+- ["So8NSObjectC", "isRunning"]
+- ["So8NSObjectC", "pause"]
+- ["So8NSObjectC", "play"]
+- !private ["So8NSObjectC", "post"]
+- !private ["So8NSObjectC", "pow"]
+- !private ["So8NSObjectC", "print"]
+- ["So8NSObjectC", "resume"]
+- !private ["So8NSObjectC", "scheduledTimer"]
+- ["So8NSObjectC", "setupPlayer"]
+- ["So8NSObjectC", "shared"]
+- ["So8NSObjectC", "stop"]
+- ["So8NSObjectC", "timerDidUpdateMeter"]
+- !private ["So8NSObjectC", "updateMeters"]
+- !private ["So8NSObjectP", "AVAudioPlayer"]
+- !private ["So8NSObjectP", "AudioErrorType"]
+- ["So8NSObjectP", "AudioPlayerManager"]
+- !private ["So8NSObjectP", "AudioRecorderManager"]
+- !private ["So8NSObjectP", "NotificationCenter"]
+- !private ["So8NSObjectP", "Timer"]
+- !private ["So8NSObjectP", "URL"]
+- ["So8NSObjectP", ""]
+- !private ["So8NSObjectP", "audioMeteringLevelTimer"]
+- !private ["So8NSObjectP", "audioPercentageUserInfoKey"]
+- !private ["So8NSObjectP", "audioPlayer"]
+- ["So8NSObjectP", "audioPlayerBeginInterruption"]
+- ["So8NSObjectP", "audioPlayerDecodeErrorDidOccur"]
+- ["So8NSObjectP", "audioPlayerDidFinishPlaying"]
+- ["So8NSObjectP", "audioPlayerEndInterruption"]
+- !private ["So8NSObjectP", "averagePower"]
+- !private ["So8NSObjectP", "currentTime"]
+- !private ["So8NSObjectP", "default"]
+- !private ["So8NSObjectP", "delegate"]
+- !private ["So8NSObjectP", "duration"]
+- ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "isMeteringEnabled"]
+- !private ["So8NSObjectP", "isPlaying"]
+- !private ["So8NSObjectP", "isRunning"]
+- !private ["So8NSObjectP", "pause"]
+- !private ["So8NSObjectP", "play"]
+- !private ["So8NSObjectP", "post"]
+- !private ["So8NSObjectP", "pow"]
+- !private ["So8NSObjectP", "print"]
+- !private ["So8NSObjectP", "scheduledTimer"]
+- !private ["So8NSObjectP", "setupPlayer"]
+- !private ["So8NSObjectP", "shared"]
+- !private ["So8NSObjectP", "stop"]
+- !private ["So8NSObjectP", "timerDidUpdateMeter"]
+- !private ["So8NSObjectP", "updateMeters"]
+- ["So18NSNotificationNamea", "Notification"]
+- ["So18NSNotificationNamea", "audioPlayerManagerMeteringLevelDidFinishNotification"]
+- ["So18NSNotificationNamea", "audioPlayerManagerMeteringLevelDidUpdateNotification"]
+- ["So18NSNotificationNamea", "init"]
+- ["10Foundation12NotificationV", "Name"]
+- !private ["So20NSNotificationCenterC", "default"]
+- !private ["So20NSNotificationCenterC", "post"]
+- ["SY", "Notification"]
+- !private ["SY", "audioPlayerManagerMeteringLevelDidFinishNotification"]
+- !private ["SY", "audioPlayerManagerMeteringLevelDidUpdateNotification"]
+- ["SY", "init"]
+- ["10Foundation20ReferenceConvertibleP", "Name"]
+- !private ["10Foundation20ReferenceConvertibleP", "checkPath"]
+- !private ["10Foundation20ReferenceConvertibleP", "path"]
+- !private ["So7NSTimerC", "scheduledTimer"]
+- !private ["10Foundation3URLV", "checkPath"]
+- !private ["10Foundation3URLV", "path"]
+- !private ["9Alamofire14URLConvertibleP", "checkPath"]
+- !private ["9Alamofire14URLConvertibleP", "path"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "checkPath"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "path"]
+- !private ["s34_ExpressibleByFileReferenceLiteralP", "checkPath"]
+- !private ["s34_ExpressibleByFileReferenceLiteralP", "path"]
+- ["s35_HasCustomAnyHashableRepresentationP", "Notification"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "audioPlayerManagerMeteringLevelDidFinishNotification"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "audioPlayerManagerMeteringLevelDidUpdateNotification"]
+- ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "AVAudioPlayer"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "AudioErrorType"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "AudioPlayerManager"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "AudioRecorderManager"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "NotificationCenter"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "Timer"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "URL"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "audioMeteringLevelTimer"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "audioPercentageUserInfoKey"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "audioPlayer"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "audioPlayerBeginInterruption"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "audioPlayerDecodeErrorDidOccur"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "audioPlayerDidFinishPlaying"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "audioPlayerEndInterruption"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "averagePower"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "currentTime"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "default"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "delegate"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "duration"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "isMeteringEnabled"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "isPlaying"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "isRunning"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "pause"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "play"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "post"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "pow"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "print"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "scheduledTimer"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "setupPlayer"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "shared"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "stop"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "timerDidUpdateMeter"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "updateMeters"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "AVAudioPlayer"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "AudioErrorType"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "AudioPlayerManager"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "AudioRecorderManager"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "NotificationCenter"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "Timer"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "URL"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", ""]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "audioMeteringLevelTimer"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "audioPercentageUserInfoKey"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "audioPlayer"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "audioPlayerBeginInterruption"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "audioPlayerDecodeErrorDidOccur"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "audioPlayerDidFinishPlaying"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "audioPlayerEndInterruption"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "averagePower"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "currentTime"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "default"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "delegate"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "duration"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "init"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "isMeteringEnabled"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "isPlaying"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "isRunning"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "pause"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "play"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "post"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "pow"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "print"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "scheduledTimer"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "setupPlayer"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "shared"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "stop"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "timerDidUpdateMeter"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "updateMeters"]
+- ["s21_ObjectiveCBridgeableP", "Name"]
+- ["s21_ObjectiveCBridgeableP", "Notification"]
+- !private ["s21_ObjectiveCBridgeableP", "audioPlayerManagerMeteringLevelDidFinishNotification"]
+- !private ["s21_ObjectiveCBridgeableP", "audioPlayerManagerMeteringLevelDidUpdateNotification"]
+- !private ["s21_ObjectiveCBridgeableP", "checkPath"]
+- ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "path"]
+- ["s20_SwiftNewtypeWrapperP", "Notification"]
+- !private ["s20_SwiftNewtypeWrapperP", "audioPlayerManagerMeteringLevelDidFinishNotification"]
+- !private ["s20_SwiftNewtypeWrapperP", "audioPlayerManagerMeteringLevelDidUpdateNotification"]
+- ["s20_SwiftNewtypeWrapperP", "init"]
+depends-nominal:
+- !private "So13AVAudioPlayerC"
+- "So21AVAudioPlayerDelegateP"
+- !private "So23AVAudioRecorderDelegateP"
+- !private "6Usteth14AudioErrorTypeO"
+- "6Usteth18AudioPlayerManagerC"
+- !private "6Usteth20AudioRecorderManagerC"
+- "s7CVarArgP"
+- "s28CustomDebugStringConvertibleP"
+- "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "Se"
+- !private "SE"
+- "SQ"
+- !private "s5ErrorP"
+- "SH"
+- !private "10Foundation14LocalizedErrorP"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- "So18NSNotificationNamea"
+- "10Foundation12NotificationV"
+- !private "So20NSNotificationCenterC"
+- "SY"
+- "10Foundation20ReferenceConvertibleP"
+- !private "So7NSTimerC"
+- !private "10Foundation3URLV"
+- !private "9Alamofire14URLConvertibleP"
+- !private "s30_CustomPlaygroundQuickLookableP"
+- !private "s34_ExpressibleByFileReferenceLiteralP"
+- "s35_HasCustomAnyHashableRepresentationP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "10Foundation37_KeyValueCodingAndObservingPublishingP"
+- "s21_ObjectiveCBridgeableP"
+- "s20_SwiftNewtypeWrapperP"
+depends-dynamic-lookup:
+depends-external:
+- "/Volumes/Drive D/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/ObjectiveC.swiftmodule/arm64.swiftmodule"
+- "/Volumes/Drive D/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreImage.swiftmodule/arm64.swiftmodule"
+- "/Volumes/Drive D/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/QuartzCore.swiftmodule/arm64.swiftmodule"
+- "/Volumes/Drive D/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Dispatch.swiftmodule/arm64.swiftmodule"
+- "/Volumes/Drive D/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Metal.swiftmodule/arm64.swiftmodule"
+- "/Volumes/Drive D/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Darwin.swiftmodule/arm64.swiftmodule"
+- "/Volumes/Drive D/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Foundation.swiftmodule/arm64.swiftmodule"
+- "/Volumes/Drive D/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreFoundation.swiftmodule/arm64.swiftmodule"
+- "/Volumes/Drive D/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreGraphics.swiftmodule/arm64.swiftmodule"
+- "/Volumes/Drive D/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Swift.swiftmodule/arm64.swiftmodule"
+- "/Volumes/Drive D/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/UIKit.swiftmodule/arm64.swiftmodule"
+- "/Volumes/Drive D/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/SwiftOnoneSupport.swiftmodule/arm64.swiftmodule"
+- "/Volumes/Drive D/Desktop/core/core/core-exrnujscwplmkybdhfdnfurupjdq/Build/Products/Debug-iphoneos/SwiftyJSON.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Volumes/Drive D/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Combine.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Volumes/Drive D/Desktop/core/core/core-exrnujscwplmkybdhfdnfurupjdq/Build/Products/Debug-iphoneos/Alamofire.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Volumes/Drive D/Desktop/core/core/core-exrnujscwplmkybdhfdnfurupjdq/Build/Products/Debug-iphoneos/SoundWave/SoundWave.framework/Modules/SoundWave.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Volumes/Drive D/Desktop/core/core/core-exrnujscwplmkybdhfdnfurupjdq/Build/Products/Debug-iphoneos/CryptoSwift.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Volumes/Drive D/Desktop/core/core/core-exrnujscwplmkybdhfdnfurupjdq/Build/Products/Debug-iphoneos/SoundWave/SoundWave.framework/Headers/SoundWave-umbrella.h"
+- "/Volumes/Drive D/Desktop/core/core/core-exrnujscwplmkybdhfdnfurupjdq/Build/Products/Debug-iphoneos/SoundWave/SoundWave.framework/Headers/SoundWave-Swift.h"
+- "/Volumes/Drive D/Desktop/core/core/core-exrnujscwplmkybdhfdnfurupjdq/Build/Products/Debug-iphoneos/SoundWave/SoundWave.framework/Modules/module.modulemap"
+- "/Volumes/Drive D/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.4.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Volumes/Drive D/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.4.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Volumes/Drive D/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.4.sdk/System/Library/Frameworks/CoreMedia.framework/Headers/CoreMedia.apinotes"
+- "/Volumes/Drive D/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.4.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.apinotes"
+- "/Volumes/Drive D/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.4.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Volumes/Drive D/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.4.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Volumes/Drive D/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Volumes/Drive D/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.4.sdk/System/Library/Frameworks/CoreBluetooth.framework/Headers/CoreBluetooth.apinotes"
+- "/Volumes/Drive D/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.4.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Volumes/Drive D/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.4.sdk/usr/include/Darwin.apinotes"
+- "/Volumes/Drive D/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.4.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Volumes/Drive D/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.4.sdk/System/Library/Frameworks/AVFoundation.framework/Headers/AVFoundation.apinotes"
+- "/Volumes/Drive D/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.4.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Volumes/Drive D/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.4.sdk/System/Library/Frameworks/CoreAudioTypes.framework/Headers/CoreAudioTypes.apinotes"
+- "/Volumes/Drive D/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.4.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Volumes/Drive D/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/os.apinotes"
+- "/Volumes/Drive D/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.4.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Volumes/Drive D/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.4.sdk/System/Library/Frameworks/AVKit.framework/Headers/AVKit.apinotes"
+- "/Volumes/Drive D/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.4.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Volumes/Drive D/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.4.sdk/System/Library/Frameworks/MediaToolbox.framework/Headers/MediaToolbox.apinotes"
+- "/Volumes/Drive D/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.4.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioToolbox.apinotes"
+- "/Volumes/Drive D/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.4.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "733e8a0081d80c899c64fbeec0209934"

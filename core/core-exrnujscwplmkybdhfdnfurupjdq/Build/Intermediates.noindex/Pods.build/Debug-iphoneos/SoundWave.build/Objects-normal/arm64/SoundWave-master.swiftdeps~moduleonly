@@ -1,0 +1,7 @@
+version: "Apple Swift version 5.2.2 (swiftlang-1103.0.32.6 clang-1103.0.32.51)"
+options: "2159a086eae28fc0c6ee411e11983f49"
+build_time: [1639471283, 125645000]
+inputs:
+  "/Volumes/Drive D/Desktop/core/Pods/SoundWave/SoundWave/Classes/AudioVisualizationView.swift": [1634380085, 0]
+  "/Volumes/Drive D/Desktop/core/Pods/SoundWave/SoundWave/Classes/BaseNibView.swift": [1634380085, 0]
+  "/Volumes/Drive D/Desktop/core/Pods/SoundWave/SoundWave/Classes/Chronometer.swift": [1634380085, 0]

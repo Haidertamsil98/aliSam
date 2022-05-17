@@ -1,0 +1,398 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "DatabaseHelper"
+provides-nominal:
+- "6Usteth14DatabaseHelperC"
+provides-member:
+- ["6Usteth14DatabaseHelperC", ""]
+provides-dynamic-lookup:
+- "context"
+- "getAllAudioData"
+- "getAllData"
+- "save"
+- "saveAudio"
+- "shareInstance"
+depends-top-level:
+- "AppDelegate"
+- "AssignmentPrecedence"
+- "Audio"
+- "CastingPrecedence"
+- "DatabaseHelper"
+- !private "NSEntityDescription"
+- !private "NSFetchRequest"
+- !private "NSManagedObject"
+- "String"
+- !private "StringLiteralType"
+- "Student"
+- "UIApplication"
+- !private "print"
+depends-member:
+- ["6Usteth11AppDelegateC", "persistentContainer"]
+- !private ["6Usteth5AudioC", "audioPath"]
+- !private ["6Usteth5AudioC", "diagnosis"]
+- !private ["6Usteth5AudioC", "location"]
+- !private ["6Usteth5AudioC", "patient"]
+- !private ["6Usteth5AudioC", "position"]
+- !private ["s7CVarArgP", "age"]
+- !private ["s7CVarArgP", "audioPath"]
+- !private ["s7CVarArgP", "city"]
+- !private ["s7CVarArgP", "cnic"]
+- !private ["s7CVarArgP", "contact"]
+- ["s7CVarArgP", "delegate"]
+- !private ["s7CVarArgP", "diagnosis"]
+- !private ["s7CVarArgP", "drID"]
+- !private ["s7CVarArgP", "fetch"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "insertNewObject"]
+- !private ["s7CVarArgP", "location"]
+- !private ["s7CVarArgP", "name"]
+- !private ["s7CVarArgP", "patient"]
+- ["s7CVarArgP", "persistentContainer"]
+- !private ["s7CVarArgP", "position"]
+- !private ["s7CVarArgP", "save"]
+- ["s7CVarArgP", "shared"]
+- !private ["s7CVarArgP", "subscript"]
+- ["s7CVarArgP", "viewContext"]
+- !private ["Sl", "subscript"]
+- !private ["s28CustomDebugStringConvertibleP", "age"]
+- !private ["s28CustomDebugStringConvertibleP", "audioPath"]
+- !private ["s28CustomDebugStringConvertibleP", "city"]
+- !private ["s28CustomDebugStringConvertibleP", "cnic"]
+- !private ["s28CustomDebugStringConvertibleP", "contact"]
+- ["s28CustomDebugStringConvertibleP", "delegate"]
+- !private ["s28CustomDebugStringConvertibleP", "diagnosis"]
+- !private ["s28CustomDebugStringConvertibleP", "drID"]
+- !private ["s28CustomDebugStringConvertibleP", "fetch"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "insertNewObject"]
+- !private ["s28CustomDebugStringConvertibleP", "location"]
+- !private ["s28CustomDebugStringConvertibleP", "name"]
+- !private ["s28CustomDebugStringConvertibleP", "patient"]
+- ["s28CustomDebugStringConvertibleP", "persistentContainer"]
+- !private ["s28CustomDebugStringConvertibleP", "position"]
+- !private ["s28CustomDebugStringConvertibleP", "save"]
+- ["s28CustomDebugStringConvertibleP", "shared"]
+- !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- ["s28CustomDebugStringConvertibleP", "viewContext"]
+- !private ["s17CustomReflectableP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "age"]
+- !private ["s23CustomStringConvertibleP", "audioPath"]
+- !private ["s23CustomStringConvertibleP", "city"]
+- !private ["s23CustomStringConvertibleP", "cnic"]
+- !private ["s23CustomStringConvertibleP", "contact"]
+- ["s23CustomStringConvertibleP", "delegate"]
+- !private ["s23CustomStringConvertibleP", "diagnosis"]
+- !private ["s23CustomStringConvertibleP", "drID"]
+- !private ["s23CustomStringConvertibleP", "fetch"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "insertNewObject"]
+- !private ["s23CustomStringConvertibleP", "location"]
+- !private ["s23CustomStringConvertibleP", "name"]
+- !private ["s23CustomStringConvertibleP", "patient"]
+- ["s23CustomStringConvertibleP", "persistentContainer"]
+- !private ["s23CustomStringConvertibleP", "position"]
+- !private ["s23CustomStringConvertibleP", "save"]
+- ["s23CustomStringConvertibleP", "shared"]
+- !private ["s23CustomStringConvertibleP", "subscript"]
+- ["s23CustomStringConvertibleP", "viewContext"]
+- ["6Usteth14DatabaseHelperC", "AppDelegate"]
+- ["6Usteth14DatabaseHelperC", "Audio"]
+- ["6Usteth14DatabaseHelperC", "DatabaseHelper"]
+- !private ["6Usteth14DatabaseHelperC", "NSEntityDescription"]
+- !private ["6Usteth14DatabaseHelperC", "NSFetchRequest"]
+- !private ["6Usteth14DatabaseHelperC", "NSManagedObject"]
+- ["6Usteth14DatabaseHelperC", "String"]
+- ["6Usteth14DatabaseHelperC", "Student"]
+- ["6Usteth14DatabaseHelperC", "UIApplication"]
+- ["6Usteth14DatabaseHelperC", "context"]
+- ["6Usteth14DatabaseHelperC", "deinit"]
+- ["6Usteth14DatabaseHelperC", "getAllAudioData"]
+- ["6Usteth14DatabaseHelperC", "getAllData"]
+- ["6Usteth14DatabaseHelperC", "init"]
+- !private ["6Usteth14DatabaseHelperC", "print"]
+- ["6Usteth14DatabaseHelperC", "save"]
+- ["6Usteth14DatabaseHelperC", "saveAudio"]
+- ["6Usteth14DatabaseHelperC", "shareInstance"]
+- !private ["Se", "subscript"]
+- !private ["SD", "subscript"]
+- !private ["SE", "subscript"]
+- !private ["SQ", "age"]
+- !private ["SQ", "audioPath"]
+- !private ["SQ", "city"]
+- !private ["SQ", "cnic"]
+- !private ["SQ", "contact"]
+- ["SQ", "delegate"]
+- !private ["SQ", "diagnosis"]
+- !private ["SQ", "drID"]
+- !private ["SQ", "fetch"]
+- !private ["SQ", "init"]
+- !private ["SQ", "insertNewObject"]
+- !private ["SQ", "location"]
+- !private ["SQ", "name"]
+- !private ["SQ", "patient"]
+- ["SQ", "persistentContainer"]
+- !private ["SQ", "position"]
+- !private ["SQ", "save"]
+- ["SQ", "shared"]
+- !private ["SQ", "subscript"]
+- ["SQ", "viewContext"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "subscript"]
+- !private ["SH", "age"]
+- !private ["SH", "audioPath"]
+- !private ["SH", "city"]
+- !private ["SH", "cnic"]
+- !private ["SH", "contact"]
+- ["SH", "delegate"]
+- !private ["SH", "diagnosis"]
+- !private ["SH", "drID"]
+- !private ["SH", "fetch"]
+- !private ["SH", "init"]
+- !private ["SH", "insertNewObject"]
+- !private ["SH", "location"]
+- !private ["SH", "name"]
+- !private ["SH", "patient"]
+- ["SH", "persistentContainer"]
+- !private ["SH", "position"]
+- !private ["SH", "save"]
+- ["SH", "shared"]
+- !private ["SH", "subscript"]
+- ["SH", "viewContext"]
+- !private ["So8NSCodingP", "fetch"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "insertNewObject"]
+- !private ["So8NSCodingP", "save"]
+- !private ["So9NSCopyingP", "init"]
+- !private ["So9NSCopyingP", "insertNewObject"]
+- !private ["So19NSEntityDescriptionC", "insertNewObject"]
+- !private ["So17NSFastEnumerationP", "insertNewObject"]
+- !private ["So14NSFetchRequestC", "init"]
+- !private ["So20NSFetchRequestResultP", "age"]
+- !private ["So20NSFetchRequestResultP", "audioPath"]
+- !private ["So20NSFetchRequestResultP", "city"]
+- !private ["So20NSFetchRequestResultP", "cnic"]
+- !private ["So20NSFetchRequestResultP", "contact"]
+- !private ["So20NSFetchRequestResultP", "diagnosis"]
+- !private ["So20NSFetchRequestResultP", "drID"]
+- !private ["So20NSFetchRequestResultP", "location"]
+- !private ["So20NSFetchRequestResultP", "name"]
+- !private ["So20NSFetchRequestResultP", "patient"]
+- !private ["So20NSFetchRequestResultP", "position"]
+- !private ["So9NSLockingP", "fetch"]
+- !private ["So9NSLockingP", "save"]
+- !private ["So15NSManagedObjectC", "age"]
+- !private ["So15NSManagedObjectC", "audioPath"]
+- !private ["So15NSManagedObjectC", "city"]
+- !private ["So15NSManagedObjectC", "cnic"]
+- !private ["So15NSManagedObjectC", "contact"]
+- !private ["So15NSManagedObjectC", "diagnosis"]
+- !private ["So15NSManagedObjectC", "drID"]
+- !private ["So15NSManagedObjectC", "location"]
+- !private ["So15NSManagedObjectC", "name"]
+- !private ["So15NSManagedObjectC", "patient"]
+- !private ["So15NSManagedObjectC", "position"]
+- !private ["So22NSManagedObjectContextC", "fetch"]
+- !private ["So22NSManagedObjectContextC", "save"]
+- !private ["So8NSObjectC", "age"]
+- !private ["So8NSObjectC", "audioPath"]
+- !private ["So8NSObjectC", "city"]
+- !private ["So8NSObjectC", "cnic"]
+- !private ["So8NSObjectC", "contact"]
+- ["So8NSObjectC", "delegate"]
+- !private ["So8NSObjectC", "diagnosis"]
+- !private ["So8NSObjectC", "drID"]
+- !private ["So8NSObjectC", "fetch"]
+- !private ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "insertNewObject"]
+- !private ["So8NSObjectC", "location"]
+- !private ["So8NSObjectC", "name"]
+- !private ["So8NSObjectC", "patient"]
+- ["So8NSObjectC", "persistentContainer"]
+- !private ["So8NSObjectC", "position"]
+- !private ["So8NSObjectC", "save"]
+- ["So8NSObjectC", "shared"]
+- ["So8NSObjectC", "viewContext"]
+- !private ["So8NSObjectP", "age"]
+- !private ["So8NSObjectP", "audioPath"]
+- !private ["So8NSObjectP", "city"]
+- !private ["So8NSObjectP", "cnic"]
+- !private ["So8NSObjectP", "contact"]
+- ["So8NSObjectP", "delegate"]
+- !private ["So8NSObjectP", "diagnosis"]
+- !private ["So8NSObjectP", "drID"]
+- !private ["So8NSObjectP", "fetch"]
+- !private ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "insertNewObject"]
+- !private ["So8NSObjectP", "location"]
+- !private ["So8NSObjectP", "name"]
+- !private ["So8NSObjectP", "patient"]
+- ["So8NSObjectP", "persistentContainer"]
+- !private ["So8NSObjectP", "position"]
+- !private ["So8NSObjectP", "save"]
+- ["So8NSObjectP", "shared"]
+- ["So8NSObjectP", "viewContext"]
+- ["So21NSPersistentContainerC", "viewContext"]
+- !private ["So24NSPersistentStoreRequestC", "init"]
+- !private ["7Combine16ObservableObjectP", "age"]
+- !private ["7Combine16ObservableObjectP", "audioPath"]
+- !private ["7Combine16ObservableObjectP", "city"]
+- !private ["7Combine16ObservableObjectP", "cnic"]
+- !private ["7Combine16ObservableObjectP", "contact"]
+- !private ["7Combine16ObservableObjectP", "diagnosis"]
+- !private ["7Combine16ObservableObjectP", "drID"]
+- !private ["7Combine16ObservableObjectP", "location"]
+- !private ["7Combine16ObservableObjectP", "name"]
+- !private ["7Combine16ObservableObjectP", "patient"]
+- !private ["7Combine16ObservableObjectP", "position"]
+- !private ["ST", "subscript"]
+- !private ["6Usteth7StudentC", "age"]
+- !private ["6Usteth7StudentC", "city"]
+- !private ["6Usteth7StudentC", "cnic"]
+- !private ["6Usteth7StudentC", "contact"]
+- !private ["6Usteth7StudentC", "drID"]
+- !private ["6Usteth7StudentC", "name"]
+- ["So13UIApplicationC", "delegate"]
+- ["So13UIApplicationC", "shared"]
+- ["So21UIApplicationDelegateP", "persistentContainer"]
+- ["So30UIPasteConfigurationSupportingP", "delegate"]
+- ["So30UIPasteConfigurationSupportingP", "persistentContainer"]
+- ["So30UIPasteConfigurationSupportingP", "shared"]
+- ["So11UIResponderC", "delegate"]
+- ["So11UIResponderC", "persistentContainer"]
+- ["So11UIResponderC", "shared"]
+- ["So30UIResponderStandardEditActionsP", "delegate"]
+- ["So30UIResponderStandardEditActionsP", "persistentContainer"]
+- ["So30UIResponderStandardEditActionsP", "shared"]
+- ["So23UIUserActivityRestoringP", "delegate"]
+- ["So23UIUserActivityRestoringP", "persistentContainer"]
+- ["So23UIUserActivityRestoringP", "shared"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "subscript"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "age"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "audioPath"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "city"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "cnic"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "contact"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "delegate"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "diagnosis"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "drID"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "fetch"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "insertNewObject"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "location"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "name"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "patient"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "persistentContainer"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "position"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "save"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "shared"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "viewContext"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "age"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "audioPath"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "city"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "cnic"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "contact"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "delegate"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "diagnosis"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "drID"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "fetch"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "init"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "insertNewObject"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "location"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "name"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "patient"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "persistentContainer"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "position"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "save"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "shared"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "viewContext"]
+- !private ["s21_ObjectiveCBridgeableP", "subscript"]
+depends-nominal:
+- "6Usteth11AppDelegateC"
+- !private "6Usteth5AudioC"
+- "s7CVarArgP"
+- !private "Sl"
+- "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- "6Usteth14DatabaseHelperC"
+- !private "Se"
+- !private "SD"
+- !private "SE"
+- "SQ"
+- !private "s30ExpressibleByDictionaryLiteralP"
+- "SH"
+- !private "So8NSCodingP"
+- !private "So9NSCopyingP"
+- !private "So19NSEntityDescriptionC"
+- !private "So17NSFastEnumerationP"
+- !private "So14NSFetchRequestC"
+- !private "So20NSFetchRequestResultP"
+- !private "So9NSLockingP"
+- !private "So15NSManagedObjectC"
+- !private "So22NSManagedObjectContextC"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- "So21NSPersistentContainerC"
+- !private "So24NSPersistentStoreRequestC"
+- !private "7Combine16ObservableObjectP"
+- !private "ST"
+- !private "6Usteth7StudentC"
+- "So13UIApplicationC"
+- "So21UIApplicationDelegateP"
+- "So30UIPasteConfigurationSupportingP"
+- "So11UIResponderC"
+- "So30UIResponderStandardEditActionsP"
+- "So23UIUserActivityRestoringP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "10Foundation37_KeyValueCodingAndObservingPublishingP"
+- !private "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Volumes/Drive D/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/ObjectiveC.swiftmodule/arm64.swiftmodule"
+- "/Volumes/Drive D/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreMIDI.swiftmodule/arm64.swiftmodule"
+- "/Volumes/Drive D/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreMedia.swiftmodule/arm64.swiftmodule"
+- "/Volumes/Drive D/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/simd.swiftmodule/arm64.swiftmodule"
+- "/Volumes/Drive D/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreImage.swiftmodule/arm64.swiftmodule"
+- "/Volumes/Drive D/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/QuartzCore.swiftmodule/arm64.swiftmodule"
+- "/Volumes/Drive D/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Dispatch.swiftmodule/arm64.swiftmodule"
+- "/Volumes/Drive D/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Metal.swiftmodule/arm64.swiftmodule"
+- "/Volumes/Drive D/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Darwin.swiftmodule/arm64.swiftmodule"
+- "/Volumes/Drive D/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Foundation.swiftmodule/arm64.swiftmodule"
+- "/Volumes/Drive D/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/AVFoundation.swiftmodule/arm64.swiftmodule"
+- "/Volumes/Drive D/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreFoundation.swiftmodule/arm64.swiftmodule"
+- "/Volumes/Drive D/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreAudio.swiftmodule/arm64.swiftmodule"
+- "/Volumes/Drive D/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreGraphics.swiftmodule/arm64.swiftmodule"
+- "/Volumes/Drive D/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Swift.swiftmodule/arm64.swiftmodule"
+- "/Volumes/Drive D/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/UIKit.swiftmodule/arm64.swiftmodule"
+- "/Volumes/Drive D/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/SwiftOnoneSupport.swiftmodule/arm64.swiftmodule"
+- "/Volumes/Drive D/Desktop/core/core/core-exrnujscwplmkybdhfdnfurupjdq/Build/Products/Debug-iphoneos/SwiftyJSON.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Volumes/Drive D/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Combine.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Volumes/Drive D/Desktop/core/core/core-exrnujscwplmkybdhfdnfurupjdq/Build/Products/Debug-iphoneos/Alamofire.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Volumes/Drive D/Desktop/core/core/core-exrnujscwplmkybdhfdnfurupjdq/Build/Products/Debug-iphoneos/SoundWave/SoundWave.framework/Modules/SoundWave.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Volumes/Drive D/Desktop/core/core/core-exrnujscwplmkybdhfdnfurupjdq/Build/Products/Debug-iphoneos/CryptoSwift.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Volumes/Drive D/Desktop/core/core/core-exrnujscwplmkybdhfdnfurupjdq/Build/Products/Debug-iphoneos/SoundWave/SoundWave.framework/Headers/SoundWave-umbrella.h"
+- "/Volumes/Drive D/Desktop/core/core/core-exrnujscwplmkybdhfdnfurupjdq/Build/Products/Debug-iphoneos/SoundWave/SoundWave.framework/Headers/SoundWave-Swift.h"
+- "/Volumes/Drive D/Desktop/core/core/core-exrnujscwplmkybdhfdnfurupjdq/Build/Products/Debug-iphoneos/SoundWave/SoundWave.framework/Modules/module.modulemap"
+- "/Volumes/Drive D/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.4.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Volumes/Drive D/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.4.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Volumes/Drive D/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.4.sdk/System/Library/Frameworks/CoreMedia.framework/Headers/CoreMedia.apinotes"
+- "/Volumes/Drive D/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.4.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.apinotes"
+- "/Volumes/Drive D/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.4.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Volumes/Drive D/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.4.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Volumes/Drive D/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Volumes/Drive D/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.4.sdk/System/Library/Frameworks/CoreBluetooth.framework/Headers/CoreBluetooth.apinotes"
+- "/Volumes/Drive D/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.4.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Volumes/Drive D/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.4.sdk/usr/include/Darwin.apinotes"
+- "/Volumes/Drive D/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.4.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Volumes/Drive D/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.4.sdk/System/Library/Frameworks/AVFoundation.framework/Headers/AVFoundation.apinotes"
+- "/Volumes/Drive D/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.4.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Volumes/Drive D/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.4.sdk/System/Library/Frameworks/CoreAudioTypes.framework/Headers/CoreAudioTypes.apinotes"
+- "/Volumes/Drive D/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.4.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Volumes/Drive D/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/os.apinotes"
+- "/Volumes/Drive D/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.4.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Volumes/Drive D/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.4.sdk/System/Library/Frameworks/AVKit.framework/Headers/AVKit.apinotes"
+- "/Volumes/Drive D/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.4.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Volumes/Drive D/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.4.sdk/System/Library/Frameworks/MediaToolbox.framework/Headers/MediaToolbox.apinotes"
+- "/Volumes/Drive D/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.4.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioToolbox.apinotes"
+- "/Volumes/Drive D/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.4.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "00941d66c97f208dd84c60c8deff9205"

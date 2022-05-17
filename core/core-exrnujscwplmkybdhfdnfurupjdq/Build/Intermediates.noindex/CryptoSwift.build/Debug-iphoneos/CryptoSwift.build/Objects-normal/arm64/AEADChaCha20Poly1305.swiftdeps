@@ -1,0 +1,193 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "AEADChaCha20Poly1305"
+provides-nominal:
+- "11CryptoSwift20AEADChaCha20Poly1305C"
+provides-member:
+- ["11CryptoSwift20AEADChaCha20Poly1305C", ""]
+provides-dynamic-lookup:
+- "decrypt"
+- "encrypt"
+- "ivRange"
+- "kLen"
+depends-top-level:
+- !private "+"
+- !private "+="
+- "..."
+- !private "=="
+- "AEAD"
+- "AEADChaCha20Poly1305"
+- "Array"
+- "AssignmentPrecedence"
+- "Bool"
+- !private "BooleanLiteralType"
+- !private "ChaCha20"
+- "FloatLiteralType"
+- "Int"
+- "IntegerLiteralType"
+- !private "Poly1305"
+- "Range"
+- "UInt8"
+depends-member:
+- !private ["11CryptoSwift4AEADP", "Array"]
+- !private ["11CryptoSwift4AEADP", "ChaCha20"]
+- !private ["11CryptoSwift4AEADP", "Poly1305"]
+- ["11CryptoSwift4AEADP", "Range"]
+- ["11CryptoSwift4AEADP", ""]
+- !private ["11CryptoSwift4AEADP", "calculateAuthenticationTag"]
+- ["11CryptoSwift4AEADP", "ivRange"]
+- ["11CryptoSwift4AEADP", "kLen"]
+- ["11CryptoSwift20AEADChaCha20Poly1305C", "Array"]
+- ["11CryptoSwift20AEADChaCha20Poly1305C", "Bool"]
+- !private ["11CryptoSwift20AEADChaCha20Poly1305C", "ChaCha20"]
+- ["11CryptoSwift20AEADChaCha20Poly1305C", "Int"]
+- !private ["11CryptoSwift20AEADChaCha20Poly1305C", "Poly1305"]
+- ["11CryptoSwift20AEADChaCha20Poly1305C", "Range"]
+- ["11CryptoSwift20AEADChaCha20Poly1305C", "UInt8"]
+- !private ["11CryptoSwift20AEADChaCha20Poly1305C", "calculateAuthenticationTag"]
+- ["11CryptoSwift20AEADChaCha20Poly1305C", "decrypt"]
+- ["11CryptoSwift20AEADChaCha20Poly1305C", "deinit"]
+- ["11CryptoSwift20AEADChaCha20Poly1305C", "encrypt"]
+- ["11CryptoSwift20AEADChaCha20Poly1305C", "init"]
+- ["11CryptoSwift20AEADChaCha20Poly1305C", "ivRange"]
+- ["11CryptoSwift20AEADChaCha20Poly1305C", "kLen"]
+- !private ["Sa", "count"]
+- !private ["Sa", "dropFirst"]
+- !private ["Sa", "init"]
+- !private ["11CryptoSwift13AuthenticatorP", "init"]
+- !private ["SK", "count"]
+- !private ["SK", "dropFirst"]
+- ["SK", "init"]
+- !private ["11CryptoSwift11BlockCipherP", "decrypt"]
+- !private ["11CryptoSwift11BlockCipherP", "encrypt"]
+- !private ["11CryptoSwift11BlockCipherP", "init"]
+- !private ["s7CVarArgP", "count"]
+- !private ["s7CVarArgP", "dropFirst"]
+- !private ["s7CVarArgP", "init"]
+- !private ["11CryptoSwift8ChaCha20C", "decrypt"]
+- !private ["11CryptoSwift8ChaCha20C", "deinit"]
+- !private ["11CryptoSwift8ChaCha20C", "encrypt"]
+- !private ["11CryptoSwift8ChaCha20C", "init"]
+- !private ["11CryptoSwift6CipherP", "decrypt"]
+- !private ["11CryptoSwift6CipherP", "encrypt"]
+- !private ["11CryptoSwift6CipherP", "init"]
+- !private ["Sl", "count"]
+- !private ["Sl", "dropFirst"]
+- ["Sl", "init"]
+- !private ["10Foundation15ContiguousBytesP", "count"]
+- !private ["10Foundation15ContiguousBytesP", "dropFirst"]
+- !private ["10Foundation15ContiguousBytesP", "init"]
+- !private ["11CryptoSwift8CryptorsP", "decrypt"]
+- !private ["11CryptoSwift8CryptorsP", "encrypt"]
+- !private ["11CryptoSwift8CryptorsP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "count"]
+- !private ["s28CustomDebugStringConvertibleP", "dropFirst"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s17CustomReflectableP", "count"]
+- !private ["s17CustomReflectableP", "dropFirst"]
+- ["s17CustomReflectableP", "init"]
+- !private ["s23CustomStringConvertibleP", "count"]
+- !private ["s23CustomStringConvertibleP", "dropFirst"]
+- ["s23CustomStringConvertibleP", "init"]
+- !private ["10Foundation12DataProtocolP", "count"]
+- !private ["10Foundation12DataProtocolP", "dropFirst"]
+- !private ["10Foundation12DataProtocolP", "init"]
+- !private ["Se", "count"]
+- !private ["Se", "dropFirst"]
+- ["Se", "init"]
+- !private ["SE", "count"]
+- !private ["SE", "dropFirst"]
+- ["SE", "init"]
+- !private ["SQ", "count"]
+- !private ["SQ", "dropFirst"]
+- ["SQ", "init"]
+- !private ["s25ExpressibleByArrayLiteralP", "count"]
+- !private ["s25ExpressibleByArrayLiteralP", "dropFirst"]
+- !private ["s25ExpressibleByArrayLiteralP", "init"]
+- !private ["SH", "count"]
+- !private ["SH", "dropFirst"]
+- ["SH", "init"]
+- !private ["SM", "count"]
+- !private ["SM", "dropFirst"]
+- !private ["SM", "init"]
+- !private ["10Foundation19MutableDataProtocolP", "count"]
+- !private ["10Foundation19MutableDataProtocolP", "dropFirst"]
+- !private ["10Foundation19MutableDataProtocolP", "init"]
+- !private ["11CryptoSwift8Poly1305C", "deinit"]
+- !private ["11CryptoSwift8Poly1305C", "init"]
+- !private ["Sk", "count"]
+- !private ["Sk", "dropFirst"]
+- ["Sk", "init"]
+- ["Sn", "init"]
+- ["SX", "init"]
+- !private ["Sm", "count"]
+- !private ["Sm", "dropFirst"]
+- !private ["Sm", "init"]
+- !private ["ST", "count"]
+- !private ["ST", "dropFirst"]
+- ["ST", "init"]
+- !private ["s14_ArrayProtocolP", "count"]
+- !private ["s14_ArrayProtocolP", "dropFirst"]
+- !private ["s14_ArrayProtocolP", "init"]
+- !private ["s24_DestructorSafeContainerP", "count"]
+- !private ["s24_DestructorSafeContainerP", "dropFirst"]
+- !private ["s24_DestructorSafeContainerP", "init"]
+- !private ["s19_HasContiguousBytesP", "count"]
+- !private ["s19_HasContiguousBytesP", "dropFirst"]
+- !private ["s19_HasContiguousBytesP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "count"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "dropFirst"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "count"]
+- !private ["s21_ObjectiveCBridgeableP", "dropFirst"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+depends-nominal:
+- "11CryptoSwift4AEADP"
+- "11CryptoSwift20AEADChaCha20Poly1305C"
+- !private "Sa"
+- !private "11CryptoSwift13AuthenticatorP"
+- "SK"
+- !private "11CryptoSwift11BlockCipherP"
+- !private "s7CVarArgP"
+- !private "11CryptoSwift8ChaCha20C"
+- !private "11CryptoSwift6CipherP"
+- "Sl"
+- !private "10Foundation15ContiguousBytesP"
+- !private "11CryptoSwift8CryptorsP"
+- "s28CustomDebugStringConvertibleP"
+- "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "10Foundation12DataProtocolP"
+- "Se"
+- "SE"
+- "SQ"
+- !private "s25ExpressibleByArrayLiteralP"
+- "SH"
+- !private "SM"
+- !private "10Foundation19MutableDataProtocolP"
+- !private "11CryptoSwift8Poly1305C"
+- "Sk"
+- "Sn"
+- "SX"
+- !private "Sm"
+- "ST"
+- !private "s14_ArrayProtocolP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s19_HasContiguousBytesP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Volumes/Drive D/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/ObjectiveC.swiftmodule/arm64.swiftmodule"
+- "/Volumes/Drive D/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Dispatch.swiftmodule/arm64.swiftmodule"
+- "/Volumes/Drive D/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Darwin.swiftmodule/arm64.swiftmodule"
+- "/Volumes/Drive D/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Foundation.swiftmodule/arm64.swiftmodule"
+- "/Volumes/Drive D/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreFoundation.swiftmodule/arm64.swiftmodule"
+- "/Volumes/Drive D/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Combine.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Volumes/Drive D/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.4.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Volumes/Drive D/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Volumes/Drive D/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.4.sdk/usr/include/Darwin.apinotes"
+- "/Volumes/Drive D/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.4.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Volumes/Drive D/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.4.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Volumes/Drive D/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.4.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "4a7ec77a93a6618eb61657c72c68356b"

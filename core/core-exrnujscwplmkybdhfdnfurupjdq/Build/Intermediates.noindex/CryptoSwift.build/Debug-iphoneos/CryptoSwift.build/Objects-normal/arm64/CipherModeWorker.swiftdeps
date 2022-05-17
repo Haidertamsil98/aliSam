@@ -1,0 +1,93 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "CipherModeWorker"
+- "BlockModeWorker"
+- "CounterModeWorker"
+- "SeekableModeWorker"
+- "StreamModeWorker"
+- "FinalizingEncryptModeWorker"
+- "FinalizingDecryptModeWorker"
+provides-nominal:
+- "11CryptoSwift16CipherModeWorkerP"
+- "11CryptoSwift15BlockModeWorkerP"
+- "11CryptoSwift17CounterModeWorkerP"
+- "11CryptoSwift18SeekableModeWorkerP"
+- "11CryptoSwift16StreamModeWorkerP"
+- "11CryptoSwift27FinalizingEncryptModeWorkerP"
+- "11CryptoSwift27FinalizingDecryptModeWorkerP"
+provides-member:
+- ["11CryptoSwift16CipherModeWorkerP", ""]
+- ["11CryptoSwift15BlockModeWorkerP", ""]
+- ["11CryptoSwift17CounterModeWorkerP", ""]
+- ["11CryptoSwift18SeekableModeWorkerP", ""]
+- ["11CryptoSwift16StreamModeWorkerP", ""]
+- ["11CryptoSwift27FinalizingEncryptModeWorkerP", ""]
+- ["11CryptoSwift27FinalizingDecryptModeWorkerP", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "Array"
+- "ArraySlice"
+- "BlockModeWorker"
+- "CipherModeWorker"
+- "CipherOperationOnBlock"
+- "CounterModeWorker"
+- "FinalizingDecryptModeWorker"
+- "FinalizingEncryptModeWorker"
+- "Int"
+- "SeekableModeWorker"
+- "StreamModeWorker"
+- "UInt8"
+depends-member:
+- ["11CryptoSwift15BlockModeWorkerP", "Int"]
+- ["11CryptoSwift15BlockModeWorkerP", "blockSize"]
+- ["11CryptoSwift16CipherModeWorkerP", "Array"]
+- ["11CryptoSwift16CipherModeWorkerP", "ArraySlice"]
+- ["11CryptoSwift16CipherModeWorkerP", "CipherOperationOnBlock"]
+- ["11CryptoSwift16CipherModeWorkerP", "Counter"]
+- ["11CryptoSwift16CipherModeWorkerP", "Int"]
+- ["11CryptoSwift16CipherModeWorkerP", "UInt8"]
+- ["11CryptoSwift16CipherModeWorkerP", ""]
+- ["11CryptoSwift16CipherModeWorkerP", "additionalBufferSize"]
+- ["11CryptoSwift16CipherModeWorkerP", "blockSize"]
+- ["11CryptoSwift16CipherModeWorkerP", "cipherOperation"]
+- ["11CryptoSwift16CipherModeWorkerP", "counter"]
+- ["11CryptoSwift16CipherModeWorkerP", "decrypt"]
+- ["11CryptoSwift16CipherModeWorkerP", "didDecryptLast"]
+- ["11CryptoSwift16CipherModeWorkerP", "encrypt"]
+- ["11CryptoSwift16CipherModeWorkerP", "finalize"]
+- ["11CryptoSwift16CipherModeWorkerP", "seek"]
+- ["11CryptoSwift16CipherModeWorkerP", "willDecryptLast"]
+- ["11CryptoSwift17CounterModeWorkerP", "Counter"]
+- ["11CryptoSwift17CounterModeWorkerP", "counter"]
+- ["11CryptoSwift27FinalizingDecryptModeWorkerP", "ArraySlice"]
+- ["11CryptoSwift27FinalizingDecryptModeWorkerP", "UInt8"]
+- ["11CryptoSwift27FinalizingDecryptModeWorkerP", "didDecryptLast"]
+- ["11CryptoSwift27FinalizingDecryptModeWorkerP", "finalize"]
+- ["11CryptoSwift27FinalizingDecryptModeWorkerP", "willDecryptLast"]
+- ["11CryptoSwift27FinalizingEncryptModeWorkerP", "ArraySlice"]
+- ["11CryptoSwift27FinalizingEncryptModeWorkerP", "UInt8"]
+- ["11CryptoSwift27FinalizingEncryptModeWorkerP", "finalize"]
+- ["11CryptoSwift18SeekableModeWorkerP", "Int"]
+- ["11CryptoSwift18SeekableModeWorkerP", "seek"]
+depends-nominal:
+- "11CryptoSwift15BlockModeWorkerP"
+- "11CryptoSwift16CipherModeWorkerP"
+- "11CryptoSwift17CounterModeWorkerP"
+- "11CryptoSwift27FinalizingDecryptModeWorkerP"
+- "11CryptoSwift27FinalizingEncryptModeWorkerP"
+- "11CryptoSwift18SeekableModeWorkerP"
+depends-dynamic-lookup:
+depends-external:
+- "/Volumes/Drive D/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/ObjectiveC.swiftmodule/arm64.swiftmodule"
+- "/Volumes/Drive D/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Dispatch.swiftmodule/arm64.swiftmodule"
+- "/Volumes/Drive D/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Darwin.swiftmodule/arm64.swiftmodule"
+- "/Volumes/Drive D/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Foundation.swiftmodule/arm64.swiftmodule"
+- "/Volumes/Drive D/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreFoundation.swiftmodule/arm64.swiftmodule"
+- "/Volumes/Drive D/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Combine.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Volumes/Drive D/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.4.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Volumes/Drive D/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Volumes/Drive D/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.4.sdk/usr/include/Darwin.apinotes"
+- "/Volumes/Drive D/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.4.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Volumes/Drive D/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.4.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Volumes/Drive D/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.4.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "6aa6ddf8a44c8d6084439a051870897c"

@@ -1,0 +1,152 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "PaddingProtocol"
+- "Padding"
+provides-nominal:
+- "11CryptoSwift15PaddingProtocolP"
+- "11CryptoSwift7PaddingO"
+provides-member:
+- ["11CryptoSwift15PaddingProtocolP", ""]
+- ["11CryptoSwift7PaddingO", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "=="
+- "Array"
+- !private "FloatLiteralType"
+- !private "ISO10126Padding"
+- !private "ISO78164Padding"
+- "Int"
+- !private "IntegerLiteralType"
+- !private "PKCS5"
+- !private "PKCS7"
+- "Padding"
+- "PaddingProtocol"
+- "UInt8"
+- !private "ZeroPadding"
+depends-member:
+- ["SQ", "=="]
+- !private ["SQ", "ISO10126Padding"]
+- !private ["SQ", "ISO78164Padding"]
+- !private ["SQ", "PKCS5"]
+- !private ["SQ", "PKCS7"]
+- !private ["SQ", "ZeroPadding"]
+- ["SQ", ""]
+- ["SQ", "_rawHashValue"]
+- ["SQ", "add"]
+- ["SQ", "hash"]
+- ["SQ", "hashValue"]
+- ["SQ", "iso10126"]
+- ["SQ", "iso78164"]
+- ["SQ", "noPadding"]
+- ["SQ", "pkcs5"]
+- ["SQ", "pkcs7"]
+- ["SQ", "remove"]
+- ["SQ", "zeroPadding"]
+- ["SH", "=="]
+- !private ["SH", "ISO10126Padding"]
+- !private ["SH", "ISO78164Padding"]
+- !private ["SH", "PKCS5"]
+- !private ["SH", "PKCS7"]
+- !private ["SH", "ZeroPadding"]
+- ["SH", ""]
+- ["SH", "_rawHashValue"]
+- ["SH", "add"]
+- ["SH", "hash"]
+- ["SH", "hashValue"]
+- ["SH", "iso10126"]
+- ["SH", "iso78164"]
+- ["SH", "noPadding"]
+- ["SH", "pkcs5"]
+- ["SH", "pkcs7"]
+- ["SH", "remove"]
+- ["SH", "zeroPadding"]
+- !private ["s6HasherV", "combine"]
+- !private ["11CryptoSwift15ISO10126PaddingV", "add"]
+- !private ["11CryptoSwift15ISO10126PaddingV", "deinit"]
+- !private ["11CryptoSwift15ISO10126PaddingV", "init"]
+- !private ["11CryptoSwift15ISO10126PaddingV", "remove"]
+- !private ["11CryptoSwift15ISO78164PaddingV", "add"]
+- !private ["11CryptoSwift15ISO78164PaddingV", "deinit"]
+- !private ["11CryptoSwift15ISO78164PaddingV", "init"]
+- !private ["11CryptoSwift15ISO78164PaddingV", "remove"]
+- !private ["11CryptoSwift5PKCS5O", "Padding"]
+- !private ["11CryptoSwift5PKCS7O", "Padding"]
+- !private ["11CryptoSwift12PKCS7PaddingV", "add"]
+- !private ["11CryptoSwift12PKCS7PaddingV", "deinit"]
+- !private ["11CryptoSwift12PKCS7PaddingV", "init"]
+- !private ["11CryptoSwift12PKCS7PaddingV", "remove"]
+- ["11CryptoSwift7PaddingO", "=="]
+- ["11CryptoSwift7PaddingO", "Array"]
+- !private ["11CryptoSwift7PaddingO", "ISO10126Padding"]
+- !private ["11CryptoSwift7PaddingO", "ISO78164Padding"]
+- ["11CryptoSwift7PaddingO", "Int"]
+- !private ["11CryptoSwift7PaddingO", "PKCS5"]
+- !private ["11CryptoSwift7PaddingO", "PKCS7"]
+- ["11CryptoSwift7PaddingO", "UInt8"]
+- !private ["11CryptoSwift7PaddingO", "ZeroPadding"]
+- ["11CryptoSwift7PaddingO", "__derived_enum_equals"]
+- ["11CryptoSwift7PaddingO", "_rawHashValue"]
+- ["11CryptoSwift7PaddingO", "add"]
+- ["11CryptoSwift7PaddingO", "deinit"]
+- ["11CryptoSwift7PaddingO", "hash"]
+- ["11CryptoSwift7PaddingO", "hashValue"]
+- ["11CryptoSwift7PaddingO", "iso10126"]
+- ["11CryptoSwift7PaddingO", "iso78164"]
+- ["11CryptoSwift7PaddingO", "noPadding"]
+- ["11CryptoSwift7PaddingO", "pkcs5"]
+- ["11CryptoSwift7PaddingO", "pkcs7"]
+- ["11CryptoSwift7PaddingO", "remove"]
+- ["11CryptoSwift7PaddingO", "zeroPadding"]
+- ["11CryptoSwift15PaddingProtocolP", "=="]
+- ["11CryptoSwift15PaddingProtocolP", "Array"]
+- !private ["11CryptoSwift15PaddingProtocolP", "ISO10126Padding"]
+- !private ["11CryptoSwift15PaddingProtocolP", "ISO78164Padding"]
+- ["11CryptoSwift15PaddingProtocolP", "Int"]
+- !private ["11CryptoSwift15PaddingProtocolP", "PKCS5"]
+- !private ["11CryptoSwift15PaddingProtocolP", "PKCS7"]
+- ["11CryptoSwift15PaddingProtocolP", "UInt8"]
+- !private ["11CryptoSwift15PaddingProtocolP", "ZeroPadding"]
+- ["11CryptoSwift15PaddingProtocolP", ""]
+- ["11CryptoSwift15PaddingProtocolP", "_rawHashValue"]
+- ["11CryptoSwift15PaddingProtocolP", "add"]
+- ["11CryptoSwift15PaddingProtocolP", "hash"]
+- ["11CryptoSwift15PaddingProtocolP", "hashValue"]
+- !private ["11CryptoSwift15PaddingProtocolP", "init"]
+- ["11CryptoSwift15PaddingProtocolP", "iso10126"]
+- ["11CryptoSwift15PaddingProtocolP", "iso78164"]
+- ["11CryptoSwift15PaddingProtocolP", "noPadding"]
+- ["11CryptoSwift15PaddingProtocolP", "pkcs5"]
+- ["11CryptoSwift15PaddingProtocolP", "pkcs7"]
+- ["11CryptoSwift15PaddingProtocolP", "remove"]
+- ["11CryptoSwift15PaddingProtocolP", "zeroPadding"]
+- !private ["11CryptoSwift11ZeroPaddingV", "add"]
+- !private ["11CryptoSwift11ZeroPaddingV", "deinit"]
+- !private ["11CryptoSwift11ZeroPaddingV", "init"]
+- !private ["11CryptoSwift11ZeroPaddingV", "remove"]
+depends-nominal:
+- "SQ"
+- "SH"
+- !private "s6HasherV"
+- !private "11CryptoSwift15ISO10126PaddingV"
+- !private "11CryptoSwift15ISO78164PaddingV"
+- !private "11CryptoSwift5PKCS5O"
+- !private "11CryptoSwift5PKCS7O"
+- !private "11CryptoSwift12PKCS7PaddingV"
+- "11CryptoSwift7PaddingO"
+- "11CryptoSwift15PaddingProtocolP"
+- !private "11CryptoSwift11ZeroPaddingV"
+depends-dynamic-lookup:
+depends-external:
+- "/Volumes/Drive D/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/ObjectiveC.swiftmodule/arm64.swiftmodule"
+- "/Volumes/Drive D/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Dispatch.swiftmodule/arm64.swiftmodule"
+- "/Volumes/Drive D/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Darwin.swiftmodule/arm64.swiftmodule"
+- "/Volumes/Drive D/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Foundation.swiftmodule/arm64.swiftmodule"
+- "/Volumes/Drive D/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreFoundation.swiftmodule/arm64.swiftmodule"
+- "/Volumes/Drive D/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Combine.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Volumes/Drive D/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.4.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Volumes/Drive D/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Volumes/Drive D/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.4.sdk/usr/include/Darwin.apinotes"
+- "/Volumes/Drive D/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.4.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Volumes/Drive D/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.4.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Volumes/Drive D/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.4.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "b159d98fd299cd083736e952b15e4a6f"

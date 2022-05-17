@@ -1,0 +1,11 @@
+framework module SoundWave {
+  umbrella header "SoundWave-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module SoundWave.Swift {
+    header "SoundWave-Swift.h"
+    requires objc
+}

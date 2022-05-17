@@ -1,0 +1,5 @@
+version: "Apple Swift version 5.2.2 (swiftlang-1103.0.32.6 clang-1103.0.32.51)"
+options: "4f777dfc6b2e5b02fb5aa718b59d8af8"
+build_time: [1639471248, 815019000]
+inputs:
+  "/Users/apple/Library/Developer/Xcode/DerivedData/core-exrnujscwplmkybdhfdnfurupjdq/SourcePackages/checkouts/SwiftyJSON/Source/SwiftyJSON/SwiftyJSON.swift": [1639465590, 658702104]

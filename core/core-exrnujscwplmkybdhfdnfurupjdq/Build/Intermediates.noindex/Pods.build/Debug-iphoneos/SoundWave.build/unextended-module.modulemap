@@ -1,0 +1,10 @@
+framework module SoundWave {
+  umbrella header "SoundWave-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module SoundWave.__Swift {
+    exclude header "SoundWave-Swift.h"
+}

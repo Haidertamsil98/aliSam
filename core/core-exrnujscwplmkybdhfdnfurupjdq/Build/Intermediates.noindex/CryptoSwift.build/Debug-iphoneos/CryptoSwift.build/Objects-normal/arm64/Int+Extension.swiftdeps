@@ -1,0 +1,111 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+provides-nominal:
+provides-member:
+- ["s17FixedWidthIntegerP", ""]
+- ["s17FixedWidthIntegerP", "bytes"]
+provides-dynamic-lookup:
+depends-top-level:
+- "Array"
+- "FixedWidthInteger"
+- "Int"
+- !private "MemoryLayout"
+- "UInt8"
+- !private "arrayOfBytes"
+depends-member:
+- ["s18AdditiveArithmeticP", "Array"]
+- ["s18AdditiveArithmeticP", "Int"]
+- !private ["s18AdditiveArithmeticP", "MemoryLayout"]
+- ["s18AdditiveArithmeticP", "UInt8"]
+- !private ["s18AdditiveArithmeticP", "arrayOfBytes"]
+- !private ["s18AdditiveArithmeticP", "littleEndian"]
+- ["Sz", "Array"]
+- ["Sz", "Int"]
+- !private ["Sz", "MemoryLayout"]
+- ["Sz", "UInt8"]
+- !private ["Sz", "arrayOfBytes"]
+- !private ["Sz", "littleEndian"]
+- ["SL", "Array"]
+- ["SL", "Int"]
+- !private ["SL", "MemoryLayout"]
+- ["SL", "UInt8"]
+- !private ["SL", "arrayOfBytes"]
+- !private ["SL", "littleEndian"]
+- ["s23CustomStringConvertibleP", "Array"]
+- ["s23CustomStringConvertibleP", "Int"]
+- !private ["s23CustomStringConvertibleP", "MemoryLayout"]
+- ["s23CustomStringConvertibleP", "UInt8"]
+- !private ["s23CustomStringConvertibleP", "arrayOfBytes"]
+- !private ["s23CustomStringConvertibleP", "littleEndian"]
+- ["SQ", "Array"]
+- ["SQ", "Int"]
+- !private ["SQ", "MemoryLayout"]
+- ["SQ", "UInt8"]
+- !private ["SQ", "arrayOfBytes"]
+- !private ["SQ", "littleEndian"]
+- ["s27ExpressibleByIntegerLiteralP", "Array"]
+- ["s27ExpressibleByIntegerLiteralP", "Int"]
+- !private ["s27ExpressibleByIntegerLiteralP", "MemoryLayout"]
+- ["s27ExpressibleByIntegerLiteralP", "UInt8"]
+- !private ["s27ExpressibleByIntegerLiteralP", "arrayOfBytes"]
+- !private ["s27ExpressibleByIntegerLiteralP", "littleEndian"]
+- ["s17FixedWidthIntegerP", "Array"]
+- ["s17FixedWidthIntegerP", "Int"]
+- !private ["s17FixedWidthIntegerP", "MemoryLayout"]
+- ["s17FixedWidthIntegerP", "UInt8"]
+- !private ["s17FixedWidthIntegerP", "arrayOfBytes"]
+- ["s17FixedWidthIntegerP", "bytes"]
+- !private ["s17FixedWidthIntegerP", "littleEndian"]
+- ["SH", "Array"]
+- ["SH", "Int"]
+- !private ["SH", "MemoryLayout"]
+- ["SH", "UInt8"]
+- !private ["SH", "arrayOfBytes"]
+- !private ["SH", "littleEndian"]
+- ["s25LosslessStringConvertibleP", "Array"]
+- ["s25LosslessStringConvertibleP", "Int"]
+- !private ["s25LosslessStringConvertibleP", "MemoryLayout"]
+- ["s25LosslessStringConvertibleP", "UInt8"]
+- !private ["s25LosslessStringConvertibleP", "arrayOfBytes"]
+- !private ["s25LosslessStringConvertibleP", "littleEndian"]
+- !private ["s12MemoryLayoutO", "size"]
+- ["Sj", "Array"]
+- ["Sj", "Int"]
+- !private ["Sj", "MemoryLayout"]
+- ["Sj", "UInt8"]
+- !private ["Sj", "arrayOfBytes"]
+- !private ["Sj", "littleEndian"]
+- ["Sx", "Array"]
+- ["Sx", "Int"]
+- !private ["Sx", "MemoryLayout"]
+- ["Sx", "UInt8"]
+- !private ["Sx", "arrayOfBytes"]
+- !private ["Sx", "littleEndian"]
+depends-nominal:
+- "s18AdditiveArithmeticP"
+- "Sz"
+- "SL"
+- "s23CustomStringConvertibleP"
+- "SQ"
+- "s27ExpressibleByIntegerLiteralP"
+- "s17FixedWidthIntegerP"
+- "SH"
+- "s25LosslessStringConvertibleP"
+- !private "s12MemoryLayoutO"
+- "Sj"
+- "Sx"
+depends-dynamic-lookup:
+depends-external:
+- "/Volumes/Drive D/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/ObjectiveC.swiftmodule/arm64.swiftmodule"
+- "/Volumes/Drive D/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Dispatch.swiftmodule/arm64.swiftmodule"
+- "/Volumes/Drive D/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Darwin.swiftmodule/arm64.swiftmodule"
+- "/Volumes/Drive D/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Foundation.swiftmodule/arm64.swiftmodule"
+- "/Volumes/Drive D/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreFoundation.swiftmodule/arm64.swiftmodule"
+- "/Volumes/Drive D/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Combine.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Volumes/Drive D/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.4.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Volumes/Drive D/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Volumes/Drive D/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.4.sdk/usr/include/Darwin.apinotes"
+- "/Volumes/Drive D/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.4.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Volumes/Drive D/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.4.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Volumes/Drive D/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.4.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "0a37ef7da78ccf547e4cf31490ff2c16"

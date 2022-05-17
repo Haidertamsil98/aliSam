@@ -1,0 +1,16 @@
+PODS:
+  - SoundWave (0.1.4)
+
+DEPENDENCIES:
+  - SoundWave
+
+SPEC REPOS:
+  trunk:
+    - SoundWave
+
+SPEC CHECKSUMS:
+  SoundWave: d98ffaa863570b29d991da32a09b7ce1b4aaf2d4
+
+PODFILE CHECKSUM: 7549b090df353228c3207b269b1d13b74e6dbe7f
+
+COCOAPODS: 1.11.2
