@@ -8,10 +8,10 @@
 
 import Foundation
 import Alamofire
-import SwiftyJSON
+//import SwiftyJSON
 import Network
 import AWSSigner
-
+//import S3SignerAWS
 
 
 
@@ -43,15 +43,17 @@ class APIManager{
     func callingRegisterAPI(register: Register, completionHandler: @escaping (Bool, String) -> ()){
         
         
+        
+        
         let credentials = StaticCredential(accessKeyId: access_keyy, secretAccessKey: secret_keyy)
                       print(credentials)
         let signer = AWSSigner(credentials: credentials, name: "execute-api", region: "us-east-2")
-        
+//
         let headers: HTTPHeaders = [
         .contentType("application/json")
         ]
-        
-        
+
+//
         let json: [String: Any] = ["full_name":register.doc_full_name,
                                    "hospital_name":register.hospital_name,
                                    "doc_email":register.doc_email,
@@ -65,21 +67,39 @@ class APIManager{
         let jsonData = try? JSONSerialization.data(withJSONObject: json)
         let responseString = String(data: jsonData!, encoding: .utf8)
         //        var jsonString = String(data: jsonData! [encoding: .utf8) ?? ""
-                
-               
-
-        
-        let signedURL = signer.signURL(url: URL(string: doctor_register)!,
+//
+//
+//
+//
+        let signedURL =  signer.signURL(url: URL(string: doctor_register)!,
         method: .POST,
         body: .string(responseString!) ,
         date: Date(), expires: 600)
-               
+
+//        signer.
+        
+//        let urlToString = signedURL.absoluteString
+//
+//        print("This is : " , urlToString)
         
         
-    
+//
+//        let s3Signer = S3SignerAWS(accessKey: access_keyy, secretKey: secret_keyy, region: .usEast2_Ohio)
+//
+//
+//        do {
+//          guard let signedurl = URL(string: doctor_register) else { print("nahi hua") }
+//            let header = try s3Signer.authHeaderV4(httpMethod: .post, urlString: signedurl.absoluteString, headers: [:], payload: .data(jsonData!))
+//
+//              // make network request
+            
         
-        AF.request(doctor_register, method: .post, parameters: register, encoder: JSONParameterEncoder.default, headers: headers).responseJSON{
+        
+        
+        AF.request(signedURL, method: .post, parameters: register, encoder: JSONParameterEncoder.default, headers: headers).responseString {
             response in debugPrint(response)
+            
+            
             switch response.result{
             case.success(let data):
                 
@@ -134,6 +154,11 @@ class APIManager{
                 completionHandler(false, "Please try again")
             }
         }
+            
+            
+//        } catch {
+//          //handle error
+//        }
     }
     
     func callingLoginAPI(login: LoginModel,completionHandler: @escaping (Bool, String) -> ()){

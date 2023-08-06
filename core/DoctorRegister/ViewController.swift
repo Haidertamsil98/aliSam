@@ -8,10 +8,14 @@
 
 import UIKit
 import Network
-
+protocol SecondViewControllerDelegate: AnyObject {
+    func hideViewInFirstViewController()
+}
 
 
 class ViewController: UIViewController, DataPass, UITextFieldDelegate, UIPickerViewDelegate, UIPickerViewDataSource{
+    weak var delegate: SecondViewControllerDelegate?
+    var doneButton: UIBarButtonItem!
     func numberOfComponents(in pickerView: UIPickerView) -> Int {
         return 1
     }
@@ -19,6 +23,7 @@ class ViewController: UIViewController, DataPass, UITextFieldDelegate, UIPickerV
     var EditLabel:String! = nil
     
     var shareInstance = SecondViewController()
+    var secondViewController: SecondViewController?
     public var data: Student?
  
     
@@ -125,6 +130,21 @@ class ViewController: UIViewController, DataPass, UITextFieldDelegate, UIPickerV
         picker.delegate = self
         picker.dataSource = self
         
+//        doneButton = UIBarButtonItem(barButtonSystemItem: .done, target: self, action: #selector(doneButtonTapped))
+//
+//                // Create a flexible space to center the "Done" button on the toolbar
+//        let flexibleSpace = UIBarButtonItem(barButtonSystemItem: .flexibleSpace, target: nil, action: nil)
+//
+//                // Create the toolbar and set the "Done" button as an item
+//        let toolbar = UIToolbar()
+//        toolbar.sizeToFit()
+//        toolbar.setItems([flexibleSpace, doneButton], animated: false)
+//
+//                // Set the toolbar as the input accessory view for the picker view
+//        picker.inputAccessoryView?.inputViewController?.setToolbarItems([doneButton], animated: false)
+//        doneButton.tintColor = .blue
+        
+        
         agePicker.delegate = self
         agePicker.dataSource = self
            
@@ -143,6 +163,13 @@ class ViewController: UIViewController, DataPass, UITextFieldDelegate, UIPickerV
         
 
 }
+    
+    @objc func doneButtonTapped() {
+            // Perform any additional actions here if needed.
+            // For example, you might want to save the selected value from the UIPickerView.
+//            selectedValue =  // Retrieve the selected value from the UIPickerView
+            view.endEditing(true)
+        }
     
 
     let genders = ["Male", "Female", "Others"]
@@ -170,6 +197,15 @@ class ViewController: UIViewController, DataPass, UITextFieldDelegate, UIPickerV
         txtContact.resignFirstResponder()
         return true
     }
+    
+    override func viewWillDisappear(_ animated: Bool) {
+            super.viewWillDisappear(animated)
+            print("View controller has disappeared.")
+        
+        
+       
+            // Your code to handle the view controller not being shown goes here.
+        }
 
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
         
@@ -321,6 +357,7 @@ class ViewController: UIViewController, DataPass, UITextFieldDelegate, UIPickerV
                     self.navigationController?.popViewController(animated: true)
                            })
                         alertView.addAction(okAction)
+                alertView.view.tintColor = UIColor.black
                 
                 self.present(alertView, animated: true, completion: nil)
             
@@ -348,6 +385,7 @@ class ViewController: UIViewController, DataPass, UITextFieldDelegate, UIPickerV
                                                                
                                         })
                         alertView.addAction(okAction)
+                                alertView.view.tintColor = UIColor.black
                         self.present(alertView, animated: true, completion: nil)
                                             
                                         
@@ -359,6 +397,7 @@ class ViewController: UIViewController, DataPass, UITextFieldDelegate, UIPickerV
                     //                        self.progress.stopAnimating()
                                         })
                         alertView.addAction(okAction)
+                                alertView.view.tintColor = UIColor.black
                         self.present(alertView, animated: true, completion: nil)
                                         
                                     }
@@ -370,6 +409,7 @@ class ViewController: UIViewController, DataPass, UITextFieldDelegate, UIPickerV
                     //                        self.progress.stopAnimating()
                         })
                     alertView.addAction(okAction)
+                        alertView.view.tintColor = UIColor.black
                     self.present(alertView, animated: true, completion: nil)
                                     }
                                 }
@@ -380,17 +420,20 @@ class ViewController: UIViewController, DataPass, UITextFieldDelegate, UIPickerV
             else{
  
                 DatabaseHelper.shareInstance.save(object: dict)
+                delegate?.hideViewInFirstViewController()
                 
                 let alertView = UIAlertController(title: "Success", message: "Patient Saved Successfully", preferredStyle: .alert)
                 let okAction = UIAlertAction(title: "Next", style: .default, handler: { (alert) in
                             
-                
+
+                   
                 let secondVC = self.storyboard?.instantiateViewController(withIdentifier: "recordViewController") as! recordViewController
                     secondVC.Patient = self.txtName.text!
 //                secondVC.delegate = self
                 self.navigationController?.present(secondVC, animated: true)
                     })
                 alertView.addAction(okAction)
+                alertView.view.tintColor = UIColor.black
                 
                 
                 self.present(alertView, animated: true, completion: nil)
@@ -447,6 +490,7 @@ class ViewController: UIViewController, DataPass, UITextFieldDelegate, UIPickerV
                                                                            
                                                     })
                                     alertView.addAction(okAction)
+                                            alertView.view.tintColor = UIColor.black
                                     self.present(alertView, animated: true, completion: nil)
                                                         
                                                     
@@ -458,6 +502,7 @@ class ViewController: UIViewController, DataPass, UITextFieldDelegate, UIPickerV
                                 //                        self.progress.stopAnimating()
                                                     })
                                     alertView.addAction(okAction)
+                                            alertView.view.tintColor = UIColor.black
                                     self.present(alertView, animated: true, completion: nil)
                                                     
                                                 }

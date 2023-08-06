@@ -79,7 +79,6 @@ struct patientDelete: Codable {
 
 }
 
-
 struct HeartModel: Codable {
     
     let base64_string_of_heart_audio_file : String
@@ -88,17 +87,9 @@ struct HeartModel: Codable {
 
 }
 
-
-
 struct securedApi: Codable{
-    
     let name: String
-    
 }
-
-
-
-
 
 
 struct interceptor: Codable{

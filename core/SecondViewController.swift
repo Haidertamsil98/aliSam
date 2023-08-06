@@ -14,11 +14,18 @@ import UIKit
 protocol DataPass {
     func data(object:[String:String], index: Int, isEdit: Bool)
 }
-class SecondViewController: UIViewController, UISearchBarDelegate, DataPass {
+class SecondViewController: UIViewController, UISearchBarDelegate, DataPass,SecondViewControllerDelegate {
+    func hideViewInFirstViewController() {
+        
+            getStartedView.isHidden = true
+        
+    }
+    
     func data(object: [String : String], index: Int, isEdit: Bool) {
         return
     }
 
+    @IBOutlet var getStartedView: UIView!
     
     var drID = ""
     
@@ -31,6 +38,12 @@ class SecondViewController: UIViewController, UISearchBarDelegate, DataPass {
             drID = APIManager.shareInstance.drID
         }
     }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+            if let destinationVC = segue.destination as? ViewController {
+                destinationVC.delegate = self
+            }
+        }
     
     
     //Deletes patient data
@@ -78,12 +91,30 @@ class SecondViewController: UIViewController, UISearchBarDelegate, DataPass {
     //refreshes the page
     @IBAction func refresh(_ sender: Any) {
         
-        arrData = DatabaseHelper.shareInstance.getAllData()
-        arrData = arrData.filter{
-            ($0.drID?.contains(drID))!
-        }
         
-        self.tableView.reloadData()
+        let alertView = UIAlertController(title: "", message: "Are you sure you want Logout? ", preferredStyle: .alert)
+        let okAction = UIAlertAction(title: "OK", style: .default, handler: { (alert) in
+            let VC = self.storyboard?.instantiateViewController(withIdentifier: "LoginViewController") as! LoginViewController
+            
+            Services.ServicesInstance.removedToken()
+            
+            
+            self.present(VC, animated: true, completion: nil)
+                       })
+                       let cancelAction = UIAlertAction(title: "Cancel", style:.cancel, handler: { (alert) in
+                            print("Cancel")
+                       })
+                       alertView.addAction(okAction)
+                       alertView.addAction(cancelAction)
+        alertView.view.tintColor = UIColor.black
+                       self.present(alertView, animated: true, completion: nil)
+        
+//        arrData = DatabaseHelper.shareInstance.getAllData()
+//        arrData = arrData.filter{
+//            ($0.drID?.contains(drID))!
+//        }
+//        
+//        self.tableView.reloadData()
     }
     
     
@@ -91,6 +122,7 @@ class SecondViewController: UIViewController, UISearchBarDelegate, DataPass {
    //Adds patient and goes to patient form (ViewController)
     @IBAction func add(_ sender: Any) {
         
+//        self.getStartedView.isHidden = true
         let VC = self.storyboard?.instantiateViewController(withIdentifier: "ViewController") as! ViewController
            
            self.navigationController?.pushViewController(VC, animated: true)
@@ -116,7 +148,11 @@ class SecondViewController: UIViewController, UISearchBarDelegate, DataPass {
         arrData = arrData.filter{
                    ($0.drID?.contains(drID))!
                }
-        self.tableView.register(UITableViewCell.self, forCellReuseIdentifier: "Cell")
+        if let tableView = self.tableView {
+            tableView.register(UITableViewCell.self, forCellReuseIdentifier: "cell")
+        } else {
+            print("Error: tableView is nil")
+        }
         self.tableView.reloadData()
     }
     
@@ -125,7 +161,12 @@ class SecondViewController: UIViewController, UISearchBarDelegate, DataPass {
         setDrID()
       
         initSearchController()
-        self.tableView.register(UITableViewCell.self, forCellReuseIdentifier: "Cell")
+        
+        if let tableView = self.tableView {
+            tableView.register(UITableViewCell.self, forCellReuseIdentifier: "cell")
+        } else {
+            print("Error: tableView is nil")
+        }
         
         
         arrData = DatabaseHelper.shareInstance.getAllData()
@@ -136,15 +177,28 @@ class SecondViewController: UIViewController, UISearchBarDelegate, DataPass {
         searchBarSetup()
         
         
-        self.tableView.autoresizingMask = UIViewAutoresizing.flexibleHeight;
+//        self.tableView.autoresizingMask = UIViewAutoresizing.flexibleHeight;
 //        searchbar.delegate= self
         
         let longPressRecognizer = UILongPressGestureRecognizer(target: self, action: #selector(SecondViewController.longPress(longPressGestureRecognizer:)))
         self.view.addGestureRecognizer(longPressRecognizer)
         
+        
+        
+        
+        ShowGetStarted()
     }
     
  
+    
+    @objc func ShowGetStarted(){
+        if arrData.count < 1 {
+            getStartedView.isHidden = false
+        }
+        else{
+            getStartedView.isHidden = true
+        }
+    }
     
     //Longpress for edit
     @objc func longPress(longPressGestureRecognizer: UILongPressGestureRecognizer) {
@@ -234,6 +288,8 @@ extension SecondViewController : UITableViewDelegate, UITableViewDataSource , UI
 //        arrData = arrData.filter{
 //                       ($0.drID?.contains(drID))!
 //                   }
+        
+        ShowGetStarted()
         return arrData.count
     }
     
@@ -241,11 +297,13 @@ extension SecondViewController : UITableViewDelegate, UITableViewDataSource , UI
         
         
         
-        var cell = tableView.dequeueReusableCell(withIdentifier: "Cell", for: indexPath) 
+        var cell = self.tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath)
         if cell != nil{
-            cell = UITableViewCell(style: .subtitle, reuseIdentifier: "Cell")
+            cell = UITableViewCell(style: .subtitle, reuseIdentifier: "cell")
         }
         
+//        cell.lblName.text = arrData[indexPath.row].name
+//        cell.lblAge.text = arrData[indexPath.row].age! + "yrs"
         cell.textLabel?.text = arrData[indexPath.row].name
         cell.detailTextLabel?.text = arrData[indexPath.row].age
         return cell
@@ -271,12 +329,14 @@ extension SecondViewController : UITableViewDelegate, UITableViewDataSource , UI
                     
                     self.arrData = self.deleteData(index: indexPath.row)
                      self.tableView.deleteRows(at: [indexPath], with: .fade)
+                     self.ShowGetStarted()
                 })
                 let cancelAction = UIAlertAction(title: "Cancel", style:.cancel, handler: { (alert) in
                      print("Cancel")
                 })
                 alertView.addAction(okAction)
                 alertView.addAction(cancelAction)
+                alertView.view.tintColor = UIColor.black
                 self.present(alertView, animated: true, completion: nil)
 
         }

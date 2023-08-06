@@ -55,7 +55,13 @@ class recordViewController: UIViewController, AVAudioRecorderDelegate, AVAudioPl
     var peripheral: CBPeripheral!
     var GlobalMessage = ""
 
-
+    @IBOutlet var heartBackView: UIView!
+    
+    @IBOutlet var LungsBackView: UIView!
+    
+    @IBOutlet var BpBackView: UIView!
+    
+    
     //For bluetooth setup
     
     func centralManagerDidUpdateState(_ central: CBCentralManager) {
@@ -120,24 +126,57 @@ if peripheral == self.peripheral {
     @IBOutlet weak var gifImage: UIImageView!
     
     
+    @IBOutlet var HeartBtnOutlet: UIButton!
     
-    @IBOutlet weak var mode: UISwitch!
+    @IBOutlet var LungsButtonOutlet: UIButton!
     
-    @IBAction func mode(_ sender: Any) {
-//        let VC = self.storyboard?.instantiateViewController(withIdentifier: "LungsViewController") as! LungsViewController
-//        VC.label.text = " "
-//
-//
-//        let LVC = self.storyboard?.instantiateViewController(withIdentifier: "LocationViewController") as! LocationViewController
-//        LVC.Label.text = " "
+    @IBOutlet var BPButtonOutlet: UIButton!
+    
+    @IBOutlet weak var heart_Outlet: UILabel!
+    @IBOutlet weak var lungs_Outlet: UILabel!
+    @IBOutlet weak var BP_Outlet: UILabel!
+    
+    var mode = "heart"
+    
+    @IBAction func heart(_ sender: Any) {
+        mode = "heart"
+        heartBackView.isHidden = false
+        LungsBackView.isHidden = true
+        BpBackView.isHidden = true
+        
         
         locationOutlet.setTitle("Location", for: [])
         
-        
-//        let PVC = self.storyboard?.instantiateViewController(withIdentifier: "PositionViewController") as! PositionViewController
-//        PVC.label.text = " "
-        
     }
+    
+    
+    @IBAction func lungs(_ sender: Any) {
+        mode = "lungs"
+        
+        heartBackView.isHidden = true
+        LungsBackView.isHidden = false
+        BpBackView.isHidden = true
+        
+        locationOutlet.setTitle("Location", for: [])
+    }
+    
+    
+    @IBAction func BP(_ sender: Any) {
+        mode = "BP"
+        
+        heartBackView.isHidden = true
+        LungsBackView.isHidden = true
+        BpBackView.isHidden = false
+        
+        
+        
+        locationOutlet.setTitle("Location", for: [])
+    }
+    
+    
+    
+    
+    
     
     
     @IBOutlet weak var positionOutlet: UIButton!
@@ -206,20 +245,21 @@ private let viewModel = ViewModel()
     
          
         
-//        if GlobalMessage != "Bluetooth is on"{
-//            let alertView = UIAlertController(title: "Alert", message: "Please turn-On your bluetooth and connect Usteth Device - BK8000L" , preferredStyle: .alert)
-//                       let okAction = UIAlertAction(title: "OK", style: .default, handler: { (alert) in
-//                        
-//                        var url = NSURL(string: "prefs:root=Bluetooth")
-//                        UIApplication.shared.openURL(url! as URL)
-//
-//                                      })
-//                       alertView.addAction(okAction)
-//                       self.present(alertView, animated: true, completion: nil)
-//
-//
-//            return
-//        }
+        if GlobalMessage != "Bluetooth is on"{
+            let alertView = UIAlertController(title: "Alert", message: "Please turn-On your bluetooth and connect NoaScope Device" , preferredStyle: .alert)
+                       let okAction = UIAlertAction(title: "OK", style: .default, handler: { (alert) in
+                        
+                        var url = NSURL(string: "prefs:root=Bluetooth")
+                        UIApplication.shared.openURL(url! as URL)
+
+                                      })
+                       alertView.addAction(okAction)
+            alertView.view.tintColor = UIColor.black
+                       self.present(alertView, animated: true, completion: nil)
+
+
+            return
+        }
         
         
         
@@ -232,6 +272,7 @@ private let viewModel = ViewModel()
             let okAction = UIAlertAction(title: "OK", style: .default, handler: { (alert) in
                            })
             alertView.addAction(okAction)
+            alertView.view.tintColor = UIColor.black
             self.present(alertView, animated: true, completion: nil)
             
             
@@ -276,9 +317,24 @@ private let viewModel = ViewModel()
                     let audioSession = AVAudioSession.sharedInstance()
                             do {
 
-                                   try audioSession.setCategory(AVAudioSessionCategoryPlayAndRecord, with: .allowBluetooth)
+                                try audioSession.setCategory(AVAudioSessionCategoryPlayAndRecord, with: .allowBluetooth)
                                    try audioSession.setMode(AVAudioSessionModeDefault)
                                    try audioSession.setActive(true)
+                                if let availableInputs = AVAudioSession.sharedInstance().availableInputs {
+                                    print("Found \(availableInputs.count) inputs")
+                                    for input in availableInputs {
+                                        print("Input: \(input)")
+                                        if input.portType == AVAudioSessionPortBluetoothHFP {
+                                            print("Setting preferred input")
+                                            do {
+                                                try AVAudioSession.sharedInstance().setPreferredInput(input)
+                                            } catch {
+                                                print("Error setting preferred input: \(error)")
+                                            }
+                                        }
+                                    }
+                                }
+                                   
                                } catch {
                                    print(error)
                                }
@@ -461,9 +517,10 @@ private let viewModel = ViewModel()
             self.playerViewController.player = self.player
                                   
             self.present(self.playerViewController, animated: true, completion: {
+            
             self.playerViewController.player?.play()
 
-
+            
                            })
 
                //            audioPlayer = try AVAudioPlayer(contentsOf: path)
@@ -632,13 +689,17 @@ private let viewModel = ViewModel()
     @IBAction func location(_ sender: Any) {
         
      
-        if mode.isOn == true{
+        if mode == "lungs"{
              let VC = self.storyboard?.instantiateViewController(withIdentifier: "LungsViewController") as! LungsViewController
              self.present(VC, animated: true, completion: nil)
             
         }
-        if mode.isOn == false{
+        if mode == "heart"{
            let VC = self.storyboard?.instantiateViewController(withIdentifier: "LocationViewController") as! LocationViewController
+           self.present(VC, animated: true, completion: nil)
+        }
+        if mode == "BP"{
+           let VC = self.storyboard?.instantiateViewController(withIdentifier: "BPViewController") as! BPViewController
            self.present(VC, animated: true, completion: nil)
         }
         
@@ -669,6 +730,15 @@ private let viewModel = ViewModel()
         super.viewDidLoad()
 //        print(getDirectory())
         print("im id string", idString)
+        
+        
+        
+        
+        heartBackView.layer.cornerRadius = 12.5
+        LungsBackView.layer.cornerRadius = 12.5
+        BpBackView.layer.cornerRadius = 12.5
+        
+        
         
        manager = CBCentralManager(delegate: self, queue: nil)
 //       centralManagerDidUpdateState(manager)
@@ -835,3 +905,11 @@ extension FileManager {
 
 
 
+
+extension UIColor {
+    static var customGrey: UIColor {
+        return UIColor(red: 235, green: 235, blue: 235, alpha: 1.0)
+    }
+
+    // Add more custom colors as needed
+}

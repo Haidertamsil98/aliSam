@@ -321,6 +321,7 @@ extension CardsViewController : UITableViewDelegate, UITableViewDataSource{
                 })
                 alertView.addAction(okAction)
                 alertView.addAction(cancelAction)
+            alertView.view.tintColor = UIColor.black
                 self.present(alertView, animated: true, completion: nil)
 
         }

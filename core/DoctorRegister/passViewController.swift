@@ -13,8 +13,16 @@ class passViewController: UIViewController {
     @IBOutlet weak var cnic: UITextField!
     
     
+    @IBOutlet var CNICbackView: UIView!
     
     
+    @IBOutlet var passBackView: UIView!
+    func addBottomBorder(to view: UIView, color: UIColor, thickness: CGFloat) {
+            let border = CALayer()
+            border.backgroundColor = color.cgColor
+            border.frame = CGRect(x: 0, y: view.frame.size.height - thickness, width: view.frame.size.width, height: thickness)
+            view.layer.addSublayer(border)
+        }
     
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
            self.view.endEditing(true)
@@ -88,6 +96,7 @@ class passViewController: UIViewController {
                             
                         })
                         alertView.addAction(okAction)
+                        alertView.view.tintColor = UIColor.black
                         self.present(alertView, animated: true, completion: nil)
                         
         //               let alertView = UIAlertController(title: "Alert", message: str, preferredStyle: .alert)
@@ -104,6 +113,7 @@ class passViewController: UIViewController {
                             self.progress.stopAnimating()
                         })
                          alertView.addAction(okAction)
+                        alertView.view.tintColor = UIColor.black
                          self.present(alertView, animated: true, completion: nil)
                     }
                 }
@@ -116,6 +126,9 @@ class passViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        
+        addBottomBorder(to: CNICbackView, color: UIColor.black, thickness: 1.0)
+        addBottomBorder(to: passBackView, color: UIColor.black, thickness: 1.0)
         // Do any additional setup after loading the view.
     }
     

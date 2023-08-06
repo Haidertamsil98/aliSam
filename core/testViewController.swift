@@ -42,6 +42,7 @@ class testViewController: UIViewController {
                                        
                 })
                                     alertView.addAction(okAction)
+                    alertView.view.tintColor = UIColor.black
                                     self.present(alertView, animated: true, completion: nil)
                     
                 
@@ -53,6 +54,7 @@ class testViewController: UIViewController {
 //                    self.progress.stopAnimating()
                 })
                  alertView.addAction(okAction)
+                alertView.view.tintColor = UIColor.black
                  self.present(alertView, animated: true, completion: nil)
                 
             }
@@ -64,6 +66,7 @@ class testViewController: UIViewController {
 //                    self.progress.stopAnimating()
                 })
                  alertView.addAction(okAction)
+                alertView.view.tintColor = UIColor.black
                  self.present(alertView, animated: true, completion: nil)
             }
         }

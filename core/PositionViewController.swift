@@ -45,6 +45,11 @@ class PositionViewController: UIViewController {
 
     @IBOutlet weak var label: UILabel!
     
+    
+    @IBOutlet var sittingBtnOutlet: UIButton!
+    
+    @IBOutlet var LyingButtonOutlet: UIButton!
+    
     @IBAction func dismiss(_ sender: Any) {
         dismiss(animated: true, completion: nil)
     }
@@ -55,6 +60,10 @@ class PositionViewController: UIViewController {
         
         label?.text = "Sitting"
         
+        sittingBtnOutlet.borderColor = .black
+        LyingButtonOutlet.borderColor = .clear
+        
+        
        
         
     }
@@ -62,6 +71,9 @@ class PositionViewController: UIViewController {
     
     @IBAction func lying(_ sender: Any) {
         label?.text = "Lying"
+        
+        sittingBtnOutlet.borderColor = .clear
+        LyingButtonOutlet.borderColor = .black
         
     }
     
@@ -78,6 +90,8 @@ class PositionViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        
 
         // Do any additional setup after loading the view.
     }

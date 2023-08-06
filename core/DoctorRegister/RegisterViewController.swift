@@ -100,7 +100,7 @@ class RegisterViewController: UIViewController, UIPickerViewDelegate, UIPickerVi
         
             if CNIC.text?.count == 13{
                 
-                print(CNIC.text?.count)
+                print(CNIC.text?.count as Any)
                    let strIndex = CNIC.text?.index(CNIC.text!.startIndex, offsetBy: 5)
 //                   let strIndex2 = CNIC.text?.index(CNIC.text!.startIndex, offsetBy: 10)
                 
@@ -116,9 +116,7 @@ class RegisterViewController: UIViewController, UIPickerViewDelegate, UIPickerVi
             }
         }
         
-        if CNIC.text!.isValidCnic {
-                                 CNIC.backgroundColor = .white
-                             }
+       
         
        
         
@@ -207,7 +205,7 @@ class RegisterViewController: UIViewController, UIPickerViewDelegate, UIPickerVi
                    return
                }
         
-        progress.startAnimating()
+        
         
         guard let fname = self.FullName.text else { return }
         guard let hname = self.HospitalName.text else { return }
@@ -221,52 +219,92 @@ class RegisterViewController: UIViewController, UIPickerViewDelegate, UIPickerVi
         format.dateFormat="yyyy-MM-dd"
         let date = format.string(from: Date()) as String
         
+        self.progress.startAnimating()
+        
+        let register = Register(doc_full_name: fname, hospital_name: hname, doc_email: email, doc_phone: MobileNumber, doc_cnic: Cnic, doc_gender: Gender, user_name: fname, password: password, doc_date_added: date)
         
         
-        let register = Register(doc_full_name: fname, hospital_name: hname, doc_email: email, doc_phone: MobileNumber, doc_cnic: Cnic, doc_gender: Gender, user_name: fname, password: password, doc_date_added: date )
         
         APIManager.shareInstance.callingRegisterAPI(register: register)
         {
             (isSuccess,str) in
             if isSuccess{
+               
                 
-                if str != "Doctor with the provided email or CNIC already exists"{
-                
-                    let alertView = UIAlertController(title: "Success", message: "Registered Successfully", preferredStyle: .alert)
-                    let okAction = UIAlertAction(title: "OK", style: .default, handler: { (alert) in
-                                        
-                        self.progress.stopAnimating()
-                        self.dismiss(animated: true, completion: nil)
-                                        
-                                        
-                                       
-                })
-                                    alertView.addAction(okAction)
-                                    self.present(alertView, animated: true, completion: nil)
-                    
-                
-                }
-                
-               let alertView = UIAlertController(title: "Failed", message: str, preferredStyle: .alert)
-                 let okAction = UIAlertAction(title: "OK", style: .default, handler: { (alert) in
+               let alertView = UIAlertController(title: "Success", message: str, preferredStyle: .alert)
+                let okAction = UIAlertAction(title: "OK", style: .default, handler: { (alert) in
                     
                     self.progress.stopAnimating()
+                    self.dismiss(animated: true, completion: nil)
+                    
                 })
-                 alertView.addAction(okAction)
-                 self.present(alertView, animated: true, completion: nil)
+                alertView.addAction(okAction)
+                alertView.view.tintColor = UIColor.black
+                self.present(alertView, animated: true, completion: nil)
                 
+//               let alertView = UIAlertController(title: "Alert", message: str, preferredStyle: .alert)
+//                 let okAction = UIAlertAction(title: "OK", style: .default, handler: { (alert) in
+//                })
+//                 alertView.addAction(okAction)
+//                 self.present(alertView, animated: true, completion: nil)
             }
             else{
-            
-                let alertView = UIAlertController(title: "Oops, network issue", message: str, preferredStyle: .alert)
+        
+                let alertView = UIAlertController(title: "Failed", message: str, preferredStyle: .alert)
                  let okAction = UIAlertAction(title: "OK", style: .default, handler: { (alert) in
                     
                     self.progress.stopAnimating()
                 })
                  alertView.addAction(okAction)
+                alertView.view.tintColor = UIColor.black
                  self.present(alertView, animated: true, completion: nil)
             }
         }
+        
+        
+//        APIManager.shareInstance.callingRegisterAPI(register: register)
+//        {
+//
+//            (isSuccess,str) in
+//            if isSuccess{
+//
+//                if str != "Doctor with the provided email or CNIC already exists"{
+//
+//                    let alertView = UIAlertController(title: "Success", message: "Registered Successfully", preferredStyle: .alert)
+//                    let okAction = UIAlertAction(title: "OK", style: .default, handler: { (alert) in
+//
+//                        self.progress.stopAnimating()
+//                        self.dismiss(animated: true, completion: nil)
+//
+//
+//
+//                })
+//                                    alertView.addAction(okAction)
+//                                    self.present(alertView, animated: true, completion: nil)
+//
+//
+//                }
+//
+//               let alertView = UIAlertController(title: "Failed", message: str, preferredStyle: .alert)
+//                 let okAction = UIAlertAction(title: "OK", style: .default, handler: { (alert) in
+//
+//                    self.progress.stopAnimating()
+//                })
+//                 alertView.addAction(okAction)
+//                 self.present(alertView, animated: true, completion: nil)
+//
+//            }
+//            else{
+//
+//                let alertView = UIAlertController(title: "Oops, network issue", message: str, preferredStyle: .alert)
+//                 let okAction = UIAlertAction(title: "OK", style: .default, handler: { (alert) in
+//
+//                    self.progress.stopAnimating()
+//                })
+//                 alertView.addAction(okAction)
+//                 self.present(alertView, animated: true, completion: nil)
+//            }
+//        }
                 
     }
    

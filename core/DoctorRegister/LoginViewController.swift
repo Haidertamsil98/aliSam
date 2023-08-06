@@ -9,7 +9,7 @@
 import UIKit
 import AWSSigner
 
-class LoginViewController: UIViewController {
+class LoginViewController: UIViewController, UITextFieldDelegate {
     static let shareInstance = LoginViewController()
     
     var drID:String!=nil
@@ -23,6 +23,9 @@ class LoginViewController: UIViewController {
     
     @IBOutlet weak var email: UITextField!
     @IBOutlet weak var password: UITextField!
+    
+    @IBOutlet var emailBackView: UIView!
+    
     
     
     @IBOutlet weak var progress: UIActivityIndicatorView!
@@ -60,7 +63,7 @@ class LoginViewController: UIViewController {
 
 
                     let VC = self.storyboard?.instantiateViewController(withIdentifier: "toolbar")
-                    let home = self.storyboard?.instantiateViewController(withIdentifier: "homeViewController") as! homeViewController
+                    let home = self.storyboard?.instantiateViewController(withIdentifier: "SecondViewController") as! SecondViewController
 
                     home.drID = str
                      Services.ServicesInstance.savedToken(token:APIManager.shareInstance.drID)
@@ -74,11 +77,14 @@ class LoginViewController: UIViewController {
             
                let alertView = UIAlertController(title: "Failed", message: str, preferredStyle: .alert)
                  let okAction = UIAlertAction(title: "OK", style: .default, handler: { (alert) in
+                     
                     self.progress.stopAnimating()
 
 
                 })
+                
                  alertView.addAction(okAction)
+                alertView.view.tintColor = UIColor.black
                  self.present(alertView, animated: true, completion: nil)
             }
             else{
@@ -88,18 +94,38 @@ class LoginViewController: UIViewController {
                     self.progress.stopAnimating()
                 })
                  alertView.addAction(okAction)
+                alertView.view.tintColor = UIColor.black
                  self.present(alertView, animated: true, completion: nil)
             }
+            
+            
+            
+            print("im hereeee.....")
         }
     
     }
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
+        
+    
+        addBottomBorder(to: emailBackView, color: UIColor.black, thickness: 1.0)
+        addBottomBorder(to: passView, color: UIColor.black, thickness: 1.0)
         // Do any additional setup after loading the view.
     }
     
+    @IBOutlet var passView: UIView!
+    
+    func addBottomBorder(to view: UIView, color: UIColor, thickness: CGFloat) {
+            let border = CALayer()
+            border.backgroundColor = color.cgColor
+            border.frame = CGRect(x: 0, y: view.frame.size.height - thickness, width: view.frame.size.width, height: thickness)
+            view.layer.addSublayer(border)
+        }
+    
+    
+
 
     /*
     // MARK: - Navigation

@@ -7,6 +7,9 @@ target 'core' do
 
   # Pods for core
   pod 'SoundWave'
+  pod 'AWSCore'
+  
+
 
   target 'coreTests' do
     inherit! :search_paths

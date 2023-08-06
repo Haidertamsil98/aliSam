@@ -330,7 +330,7 @@ class diagnosisViewController: UIViewController, UIPickerViewDelegate, UIPickerV
                 let okAction = UIAlertAction(title: "OK", style: .default, handler: { (alert) in
                 })
         alertView.addAction(okAction)
-                                                        
+        alertView.view.tintColor = UIColor.black
         self.present(alertView, animated: true, completion: nil)
             
         return
@@ -351,7 +351,7 @@ class diagnosisViewController: UIViewController, UIPickerViewDelegate, UIPickerV
                                                     
                     })
             alertView.addAction(okAction)
-                                                         
+                alertView.view.tintColor = UIColor.black
             self.present(alertView, animated: true, completion: nil)
                            
                            
@@ -373,7 +373,7 @@ class diagnosisViewController: UIViewController, UIPickerViewDelegate, UIPickerV
                           
                                })
                             alertView.addAction(okAction)
-                               
+            alertView.view.tintColor = UIColor.black
             self.present(alertView, animated: true, completion: nil)
             
             
@@ -399,7 +399,7 @@ class diagnosisViewController: UIViewController, UIPickerViewDelegate, UIPickerV
                                                   
                                               })
                                            alertView.addAction(okAction)
-                                              
+                alertView.view.tintColor = UIColor.black
                            self.present(alertView, animated: true, completion: nil)
                 
                 
@@ -449,6 +449,7 @@ class diagnosisViewController: UIViewController, UIPickerViewDelegate, UIPickerV
                                 
                             })
                              alertView.addAction(okAction)
+                            alertView.view.tintColor = UIColor.black
                              self.present(alertView, animated: true, completion: nil)
                         }
                     }
@@ -461,6 +462,7 @@ class diagnosisViewController: UIViewController, UIPickerViewDelegate, UIPickerV
                            self.dismiss(animated: true, completion: nil)
                        })
                     alertView.addAction(okAction)
+            alertView.view.tintColor = UIColor.black
                        
     self.present(alertView, animated: true, completion: nil)
         

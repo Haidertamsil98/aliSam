@@ -15,7 +15,6 @@ import Foundation
 //API for Doctor Registration
 var doctor_register = "https://24ah9r35lk.execute-api.us-east-2.amazonaws.com/usteth-ma-ios-doctor-registration-stage/ustethmaiosdoctorregistrationresource"
 
-
 //API for Doctor Login Registration
 var doctor_login =  "https://p95ghsys5l.execute-api.us-east-2.amazonaws.com/usteth-ma-ios-doctor-login-stage/ustethmaiosdoctorloginresource"
 
