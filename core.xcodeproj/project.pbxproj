@@ -7,9 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		043598AE2A8374BE005F6B95 /* ModulesCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043598AD2A8374BE005F6B95 /* ModulesCell.swift */; };
+		043598B02A8375D3005F6B95 /* LearningViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043598AF2A8375D3005F6B95 /* LearningViewController.swift */; };
 		046B8DDC28ED7FF0006F1A71 /* BPViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046B8DDB28ED7FF0006F1A71 /* BPViewController.swift */; };
 		04C5AFE02912EBA000343682 /* AWSSigner in Frameworks */ = {isa = PBXBuildFile; productRef = 04C5AFDF2912EBA000343682 /* AWSSigner */; };
 		04C5AFE32912EBC100343682 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 04C5AFE22912EBC100343682 /* Alamofire */; };
+		04F183482A80C52C0041C314 /* IntroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F183472A80C52C0041C314 /* IntroViewController.swift */; };
+		04F1834A2A80C66D0041C314 /* IntroCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F183492A80C66D0041C314 /* IntroCell.swift */; };
 		04F39D3E2A7D0E6F001AB82F /* PatientViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F39D3D2A7D0E6F001AB82F /* PatientViewCell.swift */; };
 		181705BE26F76F7800791BBE /* filter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181705BD26F76F7800791BBE /* filter.swift */; };
 		182E118026E7AFE900AD0DD6 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182E117F26E7AFE800AD0DD6 /* File.swift */; };
@@ -122,7 +126,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		043598AD2A8374BE005F6B95 /* ModulesCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModulesCell.swift; sourceTree = "<group>"; };
+		043598AF2A8375D3005F6B95 /* LearningViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearningViewController.swift; sourceTree = "<group>"; };
 		046B8DDB28ED7FF0006F1A71 /* BPViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BPViewController.swift; sourceTree = "<group>"; };
+		04F183472A80C52C0041C314 /* IntroViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = IntroViewController.swift; path = "../../../../Desktop/LiveApp/Merge/AppStoreVersion(June)/DRM/InfoCabs/Login/IntroViewController.swift"; sourceTree = "<group>"; };
+		04F183492A80C66D0041C314 /* IntroCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = IntroCell.swift; path = "../../../../Desktop/LiveApp/Merge/AppStoreVersion(June)/DRM/InfoCabs/View/IntroCell.swift"; sourceTree = "<group>"; };
 		04F39D3D2A7D0E6F001AB82F /* PatientViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatientViewCell.swift; sourceTree = "<group>"; };
 		0F050243ACCFE3114F82F710 /* Pods-core.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-core.release.xcconfig"; path = "Target Support Files/Pods-core/Pods-core.release.xcconfig"; sourceTree = "<group>"; };
 		181705BD26F76F7800791BBE /* filter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = filter.swift; sourceTree = "<group>"; };
@@ -338,7 +346,11 @@
 				189644442756A82700AD4E64 /* HB.swift */,
 				187F8C622637B229000482D5 /* MicrophoneMonitor.swift */,
 				90350B502091AD6C00555011 /* Main.storyboard */,
+				043598AF2A8375D3005F6B95 /* LearningViewController.swift */,
 				04F39D3D2A7D0E6F001AB82F /* PatientViewCell.swift */,
+				043598AD2A8374BE005F6B95 /* ModulesCell.swift */,
+				04F183472A80C52C0041C314 /* IntroViewController.swift */,
+				04F183492A80C66D0041C314 /* IntroCell.swift */,
 				18A7536026E8B590008C300A /* SecuredViewController.swift */,
 				18F17F1F26CC02A4006EE360 /* waveViewController.swift */,
 				18F17F1526CBF218006EE360 /* gif.swift */,
@@ -666,6 +678,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				18CF5C67271AF70A0026A7B6 /* AudioRecorderManager.swift in Sources */,
+				043598B02A8375D3005F6B95 /* LearningViewController.swift in Sources */,
 				1897E3EA26B1644B0023ABEE /* LoginViewController.swift in Sources */,
 				18F17F2026CC02A4006EE360 /* waveViewController.swift in Sources */,
 				186C99A526AEBAB300AA1028 /* AWS.swift in Sources */,
@@ -690,10 +703,13 @@
 				90350B4D2091AD6C00555011 /* AppDelegate.swift in Sources */,
 				187F8C5F26379ADD000482D5 /* LocationViewController.swift in Sources */,
 				18AB761726A0CD4600A014A6 /* LungsViewController.swift in Sources */,
+				04F183482A80C52C0041C314 /* IntroViewController.swift in Sources */,
 				187F8C552636D13B000482D5 /* recordViewController.swift in Sources */,
+				043598AE2A8374BE005F6B95 /* ModulesCell.swift in Sources */,
 				18CF5C5B271AF6D80026A7B6 /* ViewModel.swift in Sources */,
 				18A68FA626753FB700699091 /* diagnosisViewController.swift in Sources */,
 				9017B9E42091B3F400BF9A96 /* SecondViewController.swift in Sources */,
+				04F1834A2A80C66D0041C314 /* IntroCell.swift in Sources */,
 				185FD034266FB56300AEFBE9 /* homeViewController.swift in Sources */,
 				181705BE26F76F7800791BBE /* filter.swift in Sources */,
 				18A4195E274807D700246642 /* ParticlePeripheral.swift in Sources */,

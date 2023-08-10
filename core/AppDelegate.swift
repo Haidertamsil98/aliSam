@@ -14,7 +14,14 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
     
-    
+//    if let topController = UIApplication.topViewController() {
+//        let storyBoard: UIStoryboard = UIStoryboard(name: "Login", bundle: nil)
+//        let documentVC = storyBoard.instantiateViewController(withIdentifier: "Update") as! UpdateIntroViewController
+//        let navigationController = UINavigationController(rootViewController: documentVC)
+//        topController.present(navigationController, animated: true, completion: nil)
+//    }
+//        }
+//    }
     
    
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
@@ -25,7 +32,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         let VC: UIViewController
 
         if Services.ServicesInstance.getToken() == "" {
-            VC = storyboard.instantiateViewController(withIdentifier: "LoginViewController") as! LoginViewController
+            VC = storyboard.instantiateViewController(withIdentifier: "IntroViewController") as! IntroViewController
         }
         else {
 //            print("hello", Services.ServicesInstance.getToken())

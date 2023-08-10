@@ -32,6 +32,11 @@ class LoginViewController: UIViewController, UITextFieldDelegate {
     
     
     
+    @IBAction func backk(_ sender: Any) {
+        navigationController?.popViewController(animated: true)
+    }
+    
+    
     
     
     
